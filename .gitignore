@@ -78,3 +78,7 @@ Platforms/HoloLens/Config/HoloLensEngine.ini
 
 # Git Ignore LFS file
 Content/resources/NonGitLFS/*
+# Unreal Engine Binary Assets
+*.uasset
+*.umap
+
