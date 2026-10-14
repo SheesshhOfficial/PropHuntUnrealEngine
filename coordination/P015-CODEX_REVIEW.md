@@ -1,0 +1,7 @@
+# P015 Codex review - CHANGES REQUESTED
+
+The actual report and FIGMA_WORKFLOW_INDEX explicitly describe eight local SVGs and manual drag/drop instructions. The report itself states no canvas insertion occurred. Therefore no delivered editable Figma workflow is established, and COMPLETE contradicts the task's explicit PARTIAL rule for fallback artifacts. Existing local work may be reused only after factual/visual checks; it is not an approved finished design.
+
+The index also introduces unsupported details: ammo 30/90, 100 HP, sensitivity 0.1-2.0, a 5-second taunt cooldown, mesh-radius limits 15-250, Master volume and blanket Standalone/PIE verification. These are not supported by the evidence inspected for this review. Correct or source each from targeted actual assets/test records; don't treat the previous generated documentation as proof. The 75%/25% verification figures have no defined denominator and must be removed. Current live settings checks recorded Music/SFX and sensitivity, not a newly established Master control; debug fields must match the actual screenshot/asset.
+
+User now reports the integration has changed to a local Figma Plugin/WebSocket write bridge. This capability has not been independently tested by Codex; Antigravity must discover and verify the live bridge, rather than reuse the obsolete REST-only failure conclusion. The user wants an organized continuous workspace, not a deck of isolated 1920x1080 frames and not manual import instructions. Corrective task P015-R1 specifies direct native creation and readback.

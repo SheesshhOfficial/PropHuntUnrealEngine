@@ -1,0 +1,16 @@
+Pre-Relocation Destination Collision Check:
+Timestamp: 2026-10-06T17:42:00+05:30
+Source 1: Content/resources/NonGitLFS/CyberpunkIndustries
+Destination 1: Content/resources/CyberpunkIndustries
+  Pre-existence: False (0 items found)
+  Collision Status: CLEAN (No collision)
+
+Source 2: Content/resources/NonGitLFS/Downtown_West
+Destination 2: Content/resources/Downtown_West
+  Pre-existence: False (0 items found)
+  Collision Status: CLEAN (No collision)
+
+Disk Free Space on G:
+  Free Space: 113.11 GB
+  Required (2x payload): 11.1 GB
+  Margin: >100 GB surplus

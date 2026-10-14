@@ -1,0 +1,7 @@
+# Codex review P011-R5 — 2026-10-07
+Decision: TARGETED CORRECTIONS ACCEPTED; OVERALL MENU MILESTONE REVIEWED_PARTIAL
+Independent evidence: WBP_Menu and WBP_Server compile cleanly with zero errors/warnings; all 14 final hashes match; only two scoped widgets changed; both widget backups match baseline.
+Live graph confirms Back -> hide BorderServer -> increment presentation generation, without resetting bIsSearching. Mismatch callback goes to completion cleanup, and single-outstanding guards prevent active-token overwrite. WBP_Server branches on bIsJoining before JoinSession; failure clears joining flag. No new saved product changes by Codex.
+Raw SheeshhPropHuntYT_2.log at 11:00:15 UTC records start/Back/reopen/Refresh within one second, retained token and pending guard; later cleanup and successful refresh supported. At 11:01:05 both join event attempts leave bIsJoining true. These are diagnostic delegate tests, not pointer/keyboard proof. Session roster/travel evidence retained.
+Remaining acceptance: actual menu navigation/keyboard focus, actual pause Leave, live still screenshots, supported genuine failure/retry checks and player-facing pending/empty/error usability. PARTIAL appropriate; blanket fully verified wording unsupported. Physical HID telemetry/video is not required.
+Controller completed report without nonce again; desktop final review stopped stale waiting process. R5 implementation attempt reconciled as complete, not whole-milestone approval. Next task verification only; no HUD work yet.

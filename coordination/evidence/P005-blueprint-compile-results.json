@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-10-06T18:03:15+05:30",
+  "compiled_blueprints": [
+    {
+      "asset_path": "/Game/Core/BluePrints/BP_propChar",
+      "success": true,
+      "status": "UpToDate",
+      "error_count": 0,
+      "warning_count": 0,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "asset_path": "/Game/Core/BluePrints/GM_ProphuntGameMode",
+      "success": true,
+      "status": "UpToDate",
+      "error_count": 0,
+      "warning_count": 0,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "asset_path": "/Game/Core/Map/MenuGameinstance",
+      "success": true,
+      "status": "UpToDate",
+      "error_count": 0,
+      "warning_count": 0,
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

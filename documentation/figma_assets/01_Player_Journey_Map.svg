@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <style>
+      .bg { fill: #0b0f19; }
+      .card { fill: #101827; stroke: #243248; stroke-width: 2; rx: 12; }
+      .title { fill: #ffffff; font-family: sans-serif; font-weight: 800; font-size: 36px; }
+      .subtitle { fill: #30d5e8; font-family: sans-serif; font-weight: 600; font-size: 18px; }
+      .node-main { fill: #1e293b; stroke: #38bdf8; stroke-width: 2; rx: 8; }
+      .node-hunter { fill: #2a1b12; stroke: #ffad59; stroke-width: 2; rx: 8; }
+      .node-prop { fill: #0e2a32; stroke: #30d5e8; stroke-width: 2; rx: 8; }
+      .node-debug { fill: #1e1333; stroke: #b69cff; stroke-width: 2; rx: 8; }
+      .text-title { fill: #ffffff; font-family: sans-serif; font-weight: 700; font-size: 18px; }
+      .text-desc { fill: #94a3b8; font-family: sans-serif; font-size: 13px; }
+      .arrow { stroke: #38bdf8; stroke-width: 3; fill: none; marker-end: url(#arrowhead-cyan); }
+      .arrow-hunter { stroke: #ffad59; stroke-width: 3; fill: none; marker-end: url(#arrowhead-orange); }
+      .arrow-prop { stroke: #30d5e8; stroke-width: 3; fill: none; marker-end: url(#arrowhead-cyan); }
+      .arrow-debug { stroke: #b69cff; stroke-width: 2; stroke-dasharray: 6 6; fill: none; marker-end: url(#arrowhead-purple); }
+    </style>
+    <marker id="arrowhead-cyan" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#38bdf8" />
+    </marker>
+    <marker id="arrowhead-orange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ffad59" />
+    </marker>
+    <marker id="arrowhead-purple" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#b69cff" />
+    </marker>
+  </defs>
+  <rect width="1920" height="1080" class="bg" />
+
+  <!-- Header -->
+  <rect x="80" y="50" width="1760" height="90" class="card" />
+  <text x="120" y="100" class="title">00.03 Full Player Journey &amp; Branching Pathways</text>
+  <text x="120" y="125" class="subtitle">Complete game lifecycle from launch to round outcome, role divergence, settings, and debug gates</text>
+
+  <!-- Flow Nodes -->
+  <!-- Level 1: Launch & Boot -->
+  <rect x="80" y="180" width="260" height="100" class="node-main" />
+  <text x="100" y="215" class="text-title">1. Game Launch</text>
+  <text x="100" y="240" class="text-desc">Engine init: Boot_Lvl.umap</text>
+  <text x="100" y="260" class="text-desc">MenuGameinstance active</text>
+
+  <rect x="420" y="180" width="280" height="100" class="node-main" />
+  <text x="440" y="215" class="text-title">2. Main Menu (Boot)</text>
+  <text x="440" y="240" class="text-desc">Host Game / Server Browser</text>
+  <text x="440" y="260" class="text-desc">Multi-tab Settings / Quit</text>
+
+  <!-- Connect 1 -> 2 -->
+  <path d="M 340 230 L 410 230" class="arrow" />
+
+  <!-- Level 2: Session Routes -->
+  <rect x="780" y="180" width="280" height="100" class="node-main" />
+  <text x="800" y="215" class="text-title">3. Session Routing</text>
+  <text x="800" y="240" class="text-desc">Host: Open Map1?listen</text>
+  <text x="800" y="260" class="text-desc">Join: Find via Null OSS</text>
+
+  <!-- Connect 2 -> 3 -->
+  <path d="M 700 230 L 770 230" class="arrow" />
+
+  <!-- Level 3: Map1 Match Spawn -->
+  <rect x="1140" y="180" width="280" height="100" class="node-main" />
+  <text x="1160" y="215" class="text-title">4. Map1 Active Match</text>
+  <text x="1160" y="240" class="text-desc">GM_ProphuntGameMode rules</text>
+  <text x="1160" y="260" class="text-desc">Role assignment &amp; spawn</text>
+
+  <!-- Connect 3 -> 4 -->
+  <path d="M 1060 230 L 1130 230" class="arrow" />
+
+  <!-- Role Lanes Split -->
+  <!-- Hunter Lane (Top) -->
+  <rect x="1500" y="180" width="340" height="130" class="node-hunter" />
+  <text x="1520" y="215" class="text-title" fill="#ffad59">HUNTER SQUAD LANE</text>
+  <text x="1520" y="240" class="text-desc">• Spawn &amp; Blind Hold phase</text>
+  <text x="1520" y="260" class="text-desc">• Search courtyard with IA_Move/Look</text>
+  <text x="1520" y="280" class="text-desc">• Hitscan shooting (IA_shoot) &amp; eliminate</text>
+
+  <!-- Prop Lane (Bottom) -->
+  <rect x="1500" y="350" width="340" height="130" class="node-prop" />
+  <text x="1520" y="385" class="text-title" fill="#30d5e8">PROP TEAM LANE</text>
+  <text x="1520" y="410" class="text-desc">• 30s disperse &amp; disguise headstart</text>
+  <text x="1520" y="430" class="text-desc">• IA_ChangeProp (55 catalog meshes)</text>
+  <text x="1520" y="450" class="text-desc">• IA_RotationLock &amp; IA_Taunt audio</text>
+
+  <!-- Connect 4 -> Hunter & Prop -->
+  <path d="M 1420 230 L 1490 230" class="arrow-hunter" />
+  <path d="M 1280 280 L 1280 415 L 1490 415" class="arrow-prop" />
+
+  <!-- Mid Level: Pause & Settings Branch -->
+  <rect x="420" y="550" width="320" height="150" class="node-main" />
+  <text x="440" y="585" class="text-title">Settings Hierarchy (WBP_MainMenu)</text>
+  <text x="440" y="610" class="text-desc">• Video: DX12, 6 quality rows at 720p</text>
+  <text x="440" y="630" class="text-desc">• Audio: Master/Music/SFX + % readouts</text>
+  <text x="440" y="650" class="text-desc">• Controls: Sensitivity (1.00) readout</text>
+  <text x="440" y="670" class="text-desc">• Persistence: Transactional Apply/Discard</text>
+
+  <rect x="820" y="550" width="320" height="150" class="node-main" />
+  <text x="840" y="585" class="text-title">Pause Menu (WBP_Menu)</text>
+  <text x="840" y="610" class="text-desc">• Triggered via Esc during match</text>
+  <text x="840" y="630" class="text-desc">• Resume: Restores gameplay input mode</text>
+  <text x="840" y="650" class="text-desc">• Settings: Opens preferences overlay</text>
+  <text x="840" y="670" class="text-desc">• Leave Session: DestroySession to Boot</text>
+
+  <!-- Connect 2 -> Settings -->
+  <path d="M 560 280 L 560 540" class="arrow" />
+  <!-- Connect 4 -> Pause -->
+  <path d="M 1200 280 L 1200 625 L 1150 625" class="arrow" />
+  <!-- Connect Pause -> Settings -->
+  <path d="M 820 625 L 750 625" class="arrow" />
+
+  <!-- Bottom Level: Developer Debug Side Branch -->
+  <rect x="1220" y="550" width="360" height="180" class="node-debug" />
+  <text x="1240" y="585" class="text-title" fill="#b69cff">Developer Debug (WBP_DeveloperDebugPanel)</text>
+  <text x="1240" y="610" class="text-desc">• Route: Tilde key (~) / Singleton controller</text>
+  <text x="1240" y="630" class="text-desc">• Security: Shipping compile guard (UDebugMenuLib)</text>
+  <text x="1240" y="650" class="text-desc">• Host Gating: Enabled on Authoritative Host only</text>
+  <text x="1240" y="670" class="text-desc">• Actions: Hunter count clamp, Server Prop, Round start</text>
+  <text x="1240" y="690" class="text-desc">• Denial: Explicit denial text on Boot &amp; Remote Client</text>
+
+  <!-- Connect 4 -> Debug (Dotted) -->
+  <path d="M 1350 280 L 1350 540" class="arrow-debug" />
+
+  <!-- Outcome Level -->
+  <rect x="1500" y="800" width="340" height="150" class="card" stroke="#22c55e" />
+  <text x="1520" y="835" class="text-title" fill="#22c55e">MATCH OUTCOMES [USER-TESTED]</text>
+  <text x="1520" y="865" class="text-desc">• Prop Victory: Time hits 00:00 with props alive</text>
+  <text x="1520" y="890" class="text-desc">• Hunter Victory: All props eliminated before 00:00</text>
+  <text x="1520" y="915" class="text-desc">• Teardown: Clean return to Boot_Lvl</text>
+
+  <!-- Connect Lanes to Outcome -->
+  <path d="M 1670 310 L 1670 790" class="arrow-hunter" />
+  <path d="M 1720 480 L 1720 790" class="arrow-prop" />
+</svg>

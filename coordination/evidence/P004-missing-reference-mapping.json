@@ -1,0 +1,642 @@
+{
+  "mesh_packages": [
+    {
+      "original_package": "/Game/resources/CyberpunkIndustries/Meshes/Mesh_Bench",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/CyberpunkIndustries/Maps/Map3"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/CyberpunkIndustries/Meshes/Mesh_Bench",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/CyberpunkIndustries/Meshes/Mesh_Bulb01",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/CyberpunkIndustries/Maps/Map3"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/CyberpunkIndustries/Meshes/Mesh_Bulb01",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/CyberpunkIndustries/Meshes/Mesh_Bulb02",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/CyberpunkIndustries/Maps/Map3"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/CyberpunkIndustries/Meshes/Mesh_Bulb02",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/CyberpunkIndustries/Meshes/Mesh_Fence02_FL",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/CyberpunkIndustries/Maps/Map3"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/CyberpunkIndustries/Meshes/Mesh_Fence02_FL",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/CyberpunkIndustries/Meshes/Mesh_Light01_FL",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/CyberpunkIndustries/Maps/Map3"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/CyberpunkIndustries/Meshes/Mesh_Light01_FL",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/CyberpunkIndustries/Meshes/Mesh_Light02_FL",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/CyberpunkIndustries/Maps/Map3"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/CyberpunkIndustries/Meshes/Mesh_Light02_FL",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/CyberpunkIndustries/Meshes/Mesh_Publicity",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/CyberpunkIndustries/Maps/Map3"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/CyberpunkIndustries/Meshes/Mesh_Publicity",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/CyberpunkIndustries/Meshes/Mesh_Statue",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/Stylized_Egypt/Maps/Map1",
+        "/Game/resources/NonGitLFS/CyberpunkIndustries/Maps/Map3"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/CyberpunkIndustries/Meshes/Mesh_Statue",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/CyberpunkIndustries/Meshes/Mesh_Trash01",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/CyberpunkIndustries/Maps/Map3"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/CyberpunkIndustries/Meshes/Mesh_Trash01",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/CyberpunkIndustries/Meshes/Mesh_Trash02",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/CyberpunkIndustries/Maps/Map3"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/CyberpunkIndustries/Meshes/Mesh_Trash02",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/CyberpunkIndustries/Meshes/Mesh_TrashCan01",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/CyberpunkIndustries/Maps/Map3"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/CyberpunkIndustries/Meshes/Mesh_TrashCan01",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/CyberpunkIndustries/Meshes/Mesh_TrashCan02",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/CyberpunkIndustries/Maps/Map3"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/CyberpunkIndustries/Meshes/Mesh_TrashCan02",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/CyberpunkIndustries/Meshes/Mesh_TrashCan03",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/CyberpunkIndustries/Maps/Map3"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/CyberpunkIndustries/Meshes/Mesh_TrashCan03",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/Downtown_West/Assets/props/prop_bench_wood/SM_bench_wood_a",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/Downtown_West/Maps/Map2"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_bench_wood/SM_bench_wood_a",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/Downtown_West/Assets/props/prop_bench_wood/SM_bench_wood_b",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/Downtown_West/Maps/Map2"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_bench_wood/SM_bench_wood_b",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/Downtown_West/Assets/props/prop_fire_hydrant/SM_fire_hydrant",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_fire_hydrant/SM_fire_hydrant"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_fire_hydrant/SM_fire_hydrant",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/Downtown_West/Assets/props/prop_fire_hydrant/SM_prop_hydrant_trim",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/Downtown_West/Maps/Map2",
+        "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_fire_hydrant/SM_prop_hydrant_trim"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_fire_hydrant/SM_prop_hydrant_trim",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/Downtown_West/Assets/props/prop_food/SM_bottle_seasaltsoda",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/Downtown_West/Maps/Map2"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_food/SM_bottle_seasaltsoda",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/Downtown_West/Assets/props/prop_food/SM_food_bottle_sprout",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/Downtown_West/Maps/Map2"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_food/SM_food_bottle_sprout",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/Downtown_West/Assets/props/prop_food/SM_food_ketchup",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/Downtown_West/Maps/Map2"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_food/SM_food_ketchup",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/Downtown_West/Assets/props/prop_food/SM_food_mustard",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/Downtown_West/Maps/Map2"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_food/SM_food_mustard",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/Downtown_West/Assets/props/prop_hotdog_cart/SM_food_cart",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/Downtown_West/Maps/Map2"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_hotdog_cart/SM_food_cart",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/Downtown_West/Assets/props/prop_poster_stands/SM_prop_poster_pillar",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/Downtown_West/Maps/Map2",
+        "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_poster_stands/SM_prop_poster_pillar"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_poster_stands/SM_prop_poster_pillar",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/Downtown_West/Assets/props/prop_poster_stands/SM_prop_poster_pillar_with_posters",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_poster_stands/SM_prop_poster_pillar_with_posters"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_poster_stands/SM_prop_poster_pillar_with_posters",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/Downtown_West/Assets/props/prop_poster_stands/SM_prop_poster_stand",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/Downtown_West/Maps/Map2",
+        "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_poster_stands/SM_prop_poster_stand"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_poster_stands/SM_prop_poster_stand",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/Downtown_West/Assets/props/prop_pots/SM_pot_b",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/Downtown_West/Maps/Map2",
+        "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_pots/SM_pot_b"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_pots/SM_pot_b",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/Downtown_West/Assets/props/prop_pots/SM_pot_d",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/Downtown_West/Maps/Map2",
+        "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_pots/SM_pot_d"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_pots/SM_pot_d",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/Downtown_West/Assets/props/prop_recycle_bin/SM_prop_recycle_bin",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/Downtown_West/Maps/Map2",
+        "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_recycle_bin/SM_prop_recycle_bin"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_recycle_bin/SM_prop_recycle_bin",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/Downtown_West/Assets/props/prop_store_signs/SM_signs_sign_foldout_corner",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/Downtown_West/Maps/Map2"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_store_signs/SM_signs_sign_foldout_corner",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/Downtown_West/Assets/props/prop_store_signs/SM_signs_sign_foldout_jacobs",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/Downtown_West/Maps/Map2"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_store_signs/SM_signs_sign_foldout_jacobs",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/Downtown_West/Assets/props/prop_store_signs/SM_signs_sign_foldout_megasale",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/Downtown_West/Maps/Map2"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_store_signs/SM_signs_sign_foldout_megasale",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/Downtown_West/Assets/props/prop_store_signs/SM_signs_sign_foldout_sale",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/Downtown_West/Maps/Map2"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_store_signs/SM_signs_sign_foldout_sale",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/Downtown_West/Assets/props/prop_table/SM_prop_dining_chair_a",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/Downtown_West/Maps/Map2",
+        "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_table/SM_prop_dining_chair_a"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_table/SM_prop_dining_chair_a",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/Downtown_West/Assets/props/prop_table/SM_prop_dining_chair_b",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/Downtown_West/Maps/Map2",
+        "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_table/SM_prop_dining_chair_b"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_table/SM_prop_dining_chair_b",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/Downtown_West/Assets/props/prop_table/SM_prop_dining_table_a",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/Downtown_West/Maps/Map2",
+        "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_table/SM_prop_dining_table_a"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_table/SM_prop_dining_table_a",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    },
+    {
+      "original_package": "/Game/resources/Downtown_West/Assets/props/prop_table/SM_prop_table_umbrella_a",
+      "original_in_ar": false,
+      "original_class": null,
+      "original_is_redirector": false,
+      "original_disk_exists": false,
+      "original_referencers": [
+        "/Game/Core/BluePrints/BP_propChar",
+        "/Game/resources/NonGitLFS/Downtown_West/Maps/Map2",
+        "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_table/SM_prop_table_umbrella_a"
+      ],
+      "counterpart_package": "/Game/resources/NonGitLFS/Downtown_West/Assets/props/prop_table/SM_prop_table_umbrella_a",
+      "counterpart_in_ar": true,
+      "counterpart_class": "StaticMesh",
+      "counterpart_is_redirector": false,
+      "counterpart_disk_exists": true,
+      "counterpart_referencers": []
+    }
+  ],
+  "audio_package": {
+    "user_choice_required": "Restore original audio asset or remove reference in SC_BackgroundMusic",
+    "referenced_by": "/Game/Core/sound/SC_BackgroundMusic",
+    "cue_referenced_by": "/Game/Core/BluePrints/GM_ProphuntGameMode",
+    "missing_package": "/Game/Core/sound/background-music-for-video-453282",
+    "local_recovery_candidate_found": false
+  },
+  "summary": {
+    "total_missing_mesh_packages": 36,
+    "cyberpunk_packages": 13,
+    "total_missing_audio_packages": 1,
+    "audio_counterparts_found": 0,
+    "confirmed_counterparts_in_nongitlfs": 36,
+    "downtown_west_packages": 23
+  }
+}

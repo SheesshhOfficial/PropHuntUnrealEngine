@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <style>
+      .bg { fill: #0B0E14; }
+      .header-title { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; font-size: 32px; fill: #F8FAFC; }
+      .header-sub { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 400; font-size: 15px; fill: #94A3B8; }
+      .card-bg { fill: #111622; stroke: #1E293B; stroke-width: 1.5; rx: 12px; }
+      .card-title { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 18px; fill: #38BDF8; }
+      .body-txt { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 400; font-size: 13px; fill: #CBD5E1; line-height: 1.5; }
+      .bold-txt { font-weight: 700; fill: #F8FAFC; }
+      .amber-txt { fill: #F59E0B; font-weight: 600; }
+      .badge-bg { fill: #1E293B; rx: 6px; }
+      .badge-txt { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 11px; fill: #38BDF8; }
+      .pointer { fill: #EF4444; font-family: 'Inter', sans-serif; font-weight: 800; font-size: 13px; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect class="bg" width="1920" height="1080"/>
+
+  <!-- Top Navigation Header -->
+  <g transform="translate(80, 50)">
+    <text class="header-title" x="0" y="0">PAGE 05: Pause System, Video Resolution &amp; Audio Gain Controls</text>
+    <text class="header-sub" x="0" y="28">Modal UI routing, 720p 6-row scroll scaling, scalar volume transforms (0.0–1.0), and Apply/Discard transaction logic</text>
+  </g>
+
+  <!-- Left Column: Pause Menu Mockup & Numbered Callouts -->
+  <g transform="translate(80, 120)">
+    <rect class="card-bg" width="580" height="880"/>
+    <text class="card-title" x="30" y="45">Pause Overlay (WBP_PauseMenu)</text>
+    <text class="body-txt" x="30" y="75">Input Mode: UI Only | Cursor: Visible, Non-locking</text>
+
+    <!-- UI Mockup Frame -->
+    <rect x="30" y="100" width="520" height="420" rx="8" fill="#0F172A" stroke="#334155"/>
+    <image href="P010-R1-pause-menu-1080p.png" x="35" y="105" width="510" height="287" preserveAspectRatio="xMidYMid slice"/>
+    <rect x="30" y="395" width="520" height="125" fill="#1E293B" rx="0"/>
+    <text class="bold-txt" x="50" y="425" font-size="14">Figma Reference: [FIGMA-PH-013]</text>
+    <text class="body-txt" x="50" y="450" font-size="12">Captured in PIE / Standalone. In-game background blurred.</text>
+    <text class="body-txt" x="50" y="475" font-size="12">Buttons: Resume [1], Settings [2], Main Menu [3], Desktop [4]</text>
+
+    <!-- Numbered Callouts List -->
+    <g transform="translate(30, 550)">
+      <circle cx="16" cy="16" r="14" fill="#EF4444"/>
+      <text class="pointer" x="16" y="21" fill="#FFFFFF">1</text>
+      <text class="bold-txt" x="42" y="16" font-size="14">Resume Game</text>
+      <text class="body-txt" x="42" y="34" font-size="12">Pops UI stack, restores 'Game Only' input mode, captures cursor.</text>
+
+      <circle cx="16" cy="76" r="14" fill="#EF4444"/>
+      <text class="pointer" x="16" y="81" fill="#FFFFFF">2</text>
+      <text class="bold-txt" x="42" y="76" font-size="14">Settings Sub-Panel</text>
+      <text class="body-txt" x="42" y="94" font-size="12">Switches active widget switcher to Video, Audio, &amp; Controls tab.</text>
+
+      <circle cx="16" cy="136" r="14" fill="#EF4444"/>
+      <text class="pointer" x="16" y="141" fill="#FFFFFF">3</text>
+      <text class="bold-txt" x="42" y="136" font-size="14">Return to Main Menu</text>
+      <text class="body-txt" x="42" y="154" font-size="12">Executes graceful session disconnect and loads MainMenu level.</text>
+
+      <circle cx="16" cy="196" r="14" fill="#EF4444"/>
+      <text class="pointer" x="16" y="201" fill="#FFFFFF">4</text>
+      <text class="bold-txt" x="42" y="196" font-size="14">Quit to Desktop</text>
+      <text class="body-txt" x="42" y="214" font-size="12">Terminates application cleanly via UKismetSystemLibrary::QuitGame.</text>
+
+      <!-- Key Unresolved Warning -->
+      <rect x="0" y="245" width="520" height="65" rx="6" fill="#7F1D1D" fill-opacity="0.2" stroke="#EF4444"/>
+      <text class="bold-txt" x="15" y="270" font-size="12" fill="#FCA5A5">UNRESOLVED ENGINE HOOK</text>
+      <text class="body-txt" x="15" y="292" font-size="12" fill="#FECACA">Physical Esc/M keybinding unverified in packaged builds (virtual UI verified).</text>
+    </g>
+  </g>
+
+  <!-- Middle Column: Video Resolution & 720p Constraint -->
+  <g transform="translate(690, 120)">
+    <rect class="card-bg" width="560" height="880"/>
+    <text class="card-title" x="30" y="45">Video Settings &amp; 720p Scaling Test</text>
+    <text class="body-txt" x="30" y="75">Clamped resolution dropdown &amp; 6-row viewport layout</text>
+
+    <!-- Live Screenshot Frame -->
+    <rect x="30" y="100" width="500" height="340" rx="8" fill="#0F172A" stroke="#334155"/>
+    <image href="Codex-settings-video-live.png" x="35" y="105" width="490" height="275" preserveAspectRatio="xMidYMid slice"/>
+    <rect x="30" y="385" width="500" height="55" fill="#1E293B"/>
+    <text class="bold-txt" x="45" y="415" font-size="13">Figma Reference: [FIGMA-PH-015] (Video Rows at 720p)</text>
+
+    <!-- Detailed 6-Row Specification Table -->
+    <g transform="translate(30, 465)">
+      <text class="bold-txt" x="0" y="20" font-size="15" fill="#38BDF8">6-Row Settings Viewport Architecture</text>
+      <text class="body-txt" x="0" y="45">Tested under 1280x720 windowed constraints. Scrollbar appears cleanly without clipping buttons.</text>
+
+      <rect x="0" y="65" width="500" height="42" fill="#1E293B" rx="4"/>
+      <text class="bold-txt" x="15" y="91" font-size="13">Row 1: Window Mode</text>
+      <text class="body-txt" x="220" y="91" font-size="12">Fullscreen / Windowed / Borderless</text>
+
+      <rect x="0" y="115" width="500" height="42" fill="#1E293B" rx="4"/>
+      <text class="bold-txt" x="15" y="141" font-size="13">Row 2: Resolution</text>
+      <text class="body-txt" x="220" y="141" font-size="12">Clamped list: 1280x720 to 3840x2160</text>
+
+      <rect x="0" y="165" width="500" height="42" fill="#1E293B" rx="4"/>
+      <text class="bold-txt" x="15" y="191" font-size="13">Row 3: Frame Rate Limit</text>
+      <text class="body-txt" x="220" y="191" font-size="12">30 / 60 / 120 / 144 / Unlimited</text>
+
+      <rect x="0" y="215" width="500" height="42" fill="#1E293B" rx="4"/>
+      <text class="bold-txt" x="15" y="241" font-size="13">Row 4: Quality Preset</text>
+      <text class="body-txt" x="220" y="241" font-size="12">Low / Medium / High / Epic</text>
+
+      <rect x="0" y="265" width="500" height="42" fill="#1E293B" rx="4"/>
+      <text class="bold-txt" x="15" y="291" font-size="13">Row 5: V-Sync</text>
+      <text class="body-txt" x="220" y="291" font-size="12">Enabled / Disabled boolean toggle</text>
+
+      <rect x="0" y="315" width="500" height="42" fill="#1E293B" rx="4"/>
+      <text class="bold-txt" x="15" y="341" font-size="13">Row 6: Anti-Aliasing</text>
+      <text class="body-txt" x="220" y="341" font-size="12">FXAA / TAA / TSR selectable</text>
+
+      <text class="amber-txt" x="0" y="390" font-size="12">Layout Note: All 6 rows scale into view with max vertical scroll height 420px at 720p.</text>
+    </g>
+  </g>
+
+  <!-- Right Column: Audio Gain, Volume Sliders & Transaction System -->
+  <g transform="translate(1280, 120)">
+    <rect class="card-bg" width="560" height="880"/>
+    <text class="card-title" x="30" y="45">Audio Subsystem &amp; Transaction Logic</text>
+    <text class="body-txt" x="30" y="75">Scalar 0.0–1.0 conversion, 0–100% labels, and Apply/Discard state</text>
+
+    <!-- Audio Sliders Visual Block -->
+    <g transform="translate(30, 105)">
+      <text class="bold-txt" x="0" y="20" font-size="15" fill="#38BDF8">Volume Slider Controls [FIGMA-PH-016]</text>
+
+      <!-- Music Volume -->
+      <text class="bold-txt" x="0" y="65" font-size="13">Music Volume (SC_Music)</text>
+      <text class="bold-txt" x="450" y="65" font-size="13" fill="#38BDF8">100%</text>
+      <rect x="0" y="75" width="500" height="10" rx="5" fill="#1E293B"/>
+      <rect x="0" y="75" width="500" height="10" rx="5" fill="#38BDF8"/>
+
+      <!-- SFX Volume -->
+      <text class="bold-txt" x="0" y="125" font-size="13">SFX Volume (SC_SFX: Taunts, Gunfire, Steps)</text>
+      <text class="bold-txt" x="450" y="125" font-size="13" fill="#38BDF8">100%</text>
+      <rect x="0" y="135" width="500" height="10" rx="5" fill="#1E293B"/>
+      <rect x="0" y="135" width="500" height="10" rx="5" fill="#38BDF8"/>
+
+      <text class="body-txt" x="0" y="180" font-size="12" fill="#94A3B8">Note: Inspected live UI features Music and SFX controls; Master is not present.</text>
+    </g>
+
+    <!-- Transaction Logic Breakdown -->
+    <g transform="translate(30, 310)">
+      <text class="bold-txt" x="0" y="20" font-size="15" fill="#38BDF8">Apply vs Discard Transaction State</text>
+
+      <!-- Apply Card -->
+      <rect x="0" y="40" width="500" height="120" rx="6" fill="#1E293B" stroke="#059669"/>
+      <text class="bold-txt" x="20" y="70" font-size="14" fill="#34D399">APPLY BUTTON CLICK</text>
+      <text class="body-txt" x="20" y="95" font-size="12">• Writes modified video parameters to GameUserSettings cache</text>
+      <text class="body-txt" x="20" y="115" font-size="12">• Applies resolution changes immediately (UGameUserSettings::ApplySettings)</text>
+      <text class="body-txt" x="20" y="135" font-size="12">• Updates SoundClass Mix modifiers and marks settings as clean</text>
+
+      <!-- Discard Card -->
+      <rect x="0" y="180" width="500" height="120" rx="6" fill="#1E293B" stroke="#DC2626"/>
+      <text class="bold-txt" x="20" y="210" font-size="14" fill="#F87171">DISCARD / CANCEL BUTTON CLICK</text>
+      <text class="body-txt" x="20" y="235" font-size="12">• Restores sliders and dropdown values from initial cached snapshot</text>
+      <text class="body-txt" x="20" y="255" font-size="12">• Reverts display mode without triggering resolution recalculation</text>
+      <text class="body-txt" x="20" y="275" font-size="12">• Closes settings panel returning cleanly to parent Pause Menu</text>
+    </g>
+
+    <!-- Placeholder Status Notice -->
+    <g transform="translate(30, 650)">
+      <rect x="0" y="0" width="500" height="180" rx="8" fill="#1E293B" stroke="#475569"/>
+      <text class="bold-txt" x="20" y="35" font-size="14" fill="#F8FAFC">Settings System Manifest References</text>
+      <text class="body-txt" x="20" y="65">• [FIGMA-PH-013]: Pause Menu Root Screen (1920x1080)</text>
+      <text class="body-txt" x="20" y="90">• [FIGMA-PH-014]: Settings Video Controls Tab (1920x1080)</text>
+      <text class="body-txt" x="20" y="115">• [FIGMA-PH-015]: 720p Resolution 6-Row Viewport Validation</text>
+      <text class="body-txt" x="20" y="140">• [FIGMA-PH-016]: Audio Volume Sliders with Active Percentage Display</text>
+    </g>
+  </g>
+</svg>

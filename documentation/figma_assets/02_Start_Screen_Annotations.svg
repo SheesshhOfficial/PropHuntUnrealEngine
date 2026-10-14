@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <style>
+      .bg { fill: #0b0f19; }
+      .card { fill: #101827; stroke: #243248; stroke-width: 2; rx: 12; }
+      .title { fill: #ffffff; font-family: sans-serif; font-weight: 800; font-size: 36px; }
+      .subtitle { fill: #30d5e8; font-family: sans-serif; font-weight: 600; font-size: 18px; }
+      .callout { fill: #1e293b; stroke: #38bdf8; stroke-width: 1.5; rx: 8; }
+      .badge-num { fill: #38bdf8; font-family: sans-serif; font-weight: bold; font-size: 16px; }
+      .callout-title { fill: #ffffff; font-family: sans-serif; font-weight: 700; font-size: 16px; }
+      .callout-body { fill: #94a3b8; font-family: sans-serif; font-size: 13px; }
+      .pointer { stroke: #38bdf8; stroke-width: 2.5; fill: none; marker-end: url(#arrow-c); }
+      .dot { fill: #38bdf8; stroke: #ffffff; stroke-width: 2; }
+    </style>
+    <marker id="arrow-c" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#38bdf8" />
+    </marker>
+  </defs>
+  <rect width="1920" height="1080" class="bg" />
+
+  <!-- Header -->
+  <rect x="80" y="40" width="1760" height="80" class="card" />
+  <text x="120" y="85" class="title">01.01 Main Menu Presentation &amp; Control Annotations</text>
+  <text x="120" y="105" class="subtitle">Screen Breakdown: Start menu controls, session routing, and profile configuration</text>
+
+  <!-- Image Container -->
+  <rect x="80" y="150" width="1050" height="590" class="card" />
+  <image href="P011-R2-menu-1080p.png" x="85" y="155" width="1040" height="580" preserveAspectRatio="xMidYMid meet" />
+  <text x="100" y="720" font-family="sans-serif" font-size="12" fill="#64748b">PROVENANCE: Historical asset preview from Task P011-R2 (Earlier menu presentation; not current live acceptance)</text>
+
+  <!-- Numbered Dots on Screen -->
+  <!-- 1: Host Game (around center left) -->
+  <circle cx="280" cy="380" r="14" class="dot" />
+  <text x="280" y="385" font-family="sans-serif" font-weight="bold" font-size="14" fill="#0b0f19" text-anchor="middle">1</text>
+
+  <!-- 2: Find Game -->
+  <circle cx="280" cy="440" r="14" class="dot" />
+  <text x="280" y="445" font-family="sans-serif" font-weight="bold" font-size="14" fill="#0b0f19" text-anchor="middle">2</text>
+
+  <!-- 3: Settings -->
+  <circle cx="280" cy="500" r="14" class="dot" />
+  <text x="280" y="505" font-family="sans-serif" font-weight="bold" font-size="14" fill="#0b0f19" text-anchor="middle">3</text>
+
+  <!-- 4: Quit -->
+  <circle cx="280" cy="560" r="14" class="dot" />
+  <text x="280" y="565" font-family="sans-serif" font-weight="bold" font-size="14" fill="#0b0f19" text-anchor="middle">4</text>
+
+  <!-- 5: Profile Name Input (Top Right) -->
+  <circle cx="880" cy="220" r="14" class="dot" />
+  <text x="880" y="225" font-family="sans-serif" font-weight="bold" font-size="14" fill="#0b0f19" text-anchor="middle">5</text>
+
+  <!-- Callout Cards (Right Column) -->
+  <!-- Callout 1 -->
+  <rect x="1170" y="150" width="670" height="110" class="callout" />
+  <circle cx="1200" cy="180" r="16" fill="#38bdf8" />
+  <text x="1200" y="186" font-family="sans-serif" font-weight="bold" font-size="16" fill="#0b0f19" text-anchor="middle">1</text>
+  <text x="1230" y="185" class="callout-title">Host Game Button (Btn_HostGame)</text>
+  <text x="1230" y="215" class="callout-body">Initializes local listen server session via MenuGameinstance::HostSession.</text>
+  <text x="1230" y="235" class="callout-body">Executes seamless travel to Map1 (/Game/resources/Stylized_Egypt/Maps/map1).</text>
+
+  <!-- Callout 2 -->
+  <rect x="1170" y="275" width="670" height="110" class="callout" />
+  <circle cx="1200" cy="305" r="16" fill="#38bdf8" />
+  <text x="1200" y="311" font-family="sans-serif" font-weight="bold" font-size="16" fill="#0b0f19" text-anchor="middle">2</text>
+  <text x="1230" y="310" class="callout-title">Find Game Button (Btn_FindGame)</text>
+  <text x="1230" y="340" class="callout-body">Navigates to Server Browser overlay (WBP_ServerList).</text>
+  <text x="1230" y="360" class="callout-body">Sends asynchronous session discovery query to local LAN via Null OSS.</text>
+
+  <!-- Callout 3 -->
+  <rect x="1170" y="400" width="670" height="110" class="callout" />
+  <circle cx="1200" cy="430" r="16" fill="#38bdf8" />
+  <text x="1200" y="436" font-family="sans-serif" font-weight="bold" font-size="16" fill="#0b0f19" text-anchor="middle">3</text>
+  <text x="1230" y="435" class="callout-title">Settings Button (Btn_Settings)</text>
+  <text x="1230" y="465" class="callout-body">Opens redesigned multi-tab preferences panel (WBP_MainMenu).</text>
+  <text x="1230" y="485" class="callout-body">Exposes Video (DX12), Audio (Gain mix), Controls, and Cosmetics.</text>
+
+  <!-- Callout 4 -->
+  <rect x="1170" y="525" width="670" height="110" class="callout" />
+  <circle cx="1200" cy="555" r="16" fill="#38bdf8" />
+  <text x="1200" y="561" font-family="sans-serif" font-weight="bold" font-size="16" fill="#0b0f19" text-anchor="middle">4</text>
+  <text x="1230" y="560" class="callout-title">Quit Game Button (Btn_QuitGame)</text>
+  <text x="1230" y="590" class="callout-body">Terminates application process cleanly back to Windows desktop.</text>
+
+  <!-- Callout 5 -->
+  <rect x="1170" y="650" width="670" height="110" class="callout" />
+  <circle cx="1200" cy="680" r="16" fill="#38bdf8" />
+  <text x="1200" y="686" font-family="sans-serif" font-weight="bold" font-size="16" fill="#0b0f19" text-anchor="middle">5</text>
+  <text x="1230" y="685" class="callout-title">Player Name Entry (EditableText_PlayerName)</text>
+  <text x="1230" y="715" class="callout-body">Sets local player display alias in PlayerState and session broadcast metadata.</text>
+  <text x="1230" y="735" class="callout-body">Architectural Note: Profile alias only; not an authentication/account login system.</text>
+
+  <!-- Pointers from dots to callouts -->
+  <path d="M 295 380 L 1150 205" class="pointer" />
+  <path d="M 295 440 L 1150 330" class="pointer" />
+  <path d="M 295 500 L 1150 455" class="pointer" />
+  <path d="M 295 560 L 1150 580" class="pointer" />
+  <path d="M 895 220 L 1150 705" class="pointer" />
+</svg>

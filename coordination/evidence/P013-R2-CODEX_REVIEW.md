@@ -1,0 +1,8 @@
+# Codex review P013-R2 — 2026-10-11
+Decision: CHANGES REQUESTED; retain visual corrections.
+Verified 12 final hashes against current files. Independently compiled WBP_DeveloperDebugPanel zero errors/warnings. Inspected Audio and Debug 720p previews: footer and notice overflow fixed, integer count/default and round-start label corrected, boot disabled reason present. Images are asset previews, not live input evidence.
+P1 Host Tools disabled without re-enable path: report sets four controls disabled by default; live EventGraph and UpdateDiagnostics inspection reveals no SetIsEnabled/availability update to enable a valid host. Those are the widget's only graphs. Verify any property bindings explicitly; supplied evidence does not establish usable host actions. Implement real build/world/host/match availability and test actual allowed host execution, boot/client denial.
+P2 Settings Audio still plain sliders without required numeric values/units; full row styling/dirty-state acceptance remains incomplete.
+P2 carried-forward runtime gates remain missing: backtick typing/focus/Close-reopen/console behavior, host/client rejected calls, duplicate round-start confirmation/guard, all-category Apply/Discard/fresh-session persistence/audio ownership. COMPLETE unsupported. RPC guard changes reported, but independent server-handler inspection/rejection test not completed in this review; no blanket approval or regression claim.
+Preserve legitimate gameplay use of shared prop/count RPCs: adding debug build/local-host restrictions directly to shared handlers requires caller inventory/regression, not assumption that all callers are debug-only. No new regression asserted without evidence.
+No product edits by reviewer. Correction prepared only, not dispatched.

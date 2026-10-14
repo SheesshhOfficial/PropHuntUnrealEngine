@@ -1,0 +1,12 @@
+BACKUP_DIR: coordination\backups\P005-20261006-174241
+BACKUP_TIMESTAMP: 20261006-174241
+TOTAL_VERIFIED_FILES: 1571
+TOTAL_FAILURES: 0
+VERIFICATION_STATUS: SUCCESS
+REVERSAL_PROCEDURE:
+1. Ensure Unreal Editor is closed.
+2. If destinations Content\resources\CyberpunkIndustries or Content\resources\Downtown_West exist, remove them.
+3. Copy-Item -Path "coordination\backups\P005-20261006-174241\Content\resources\NonGitLFS\*" -Destination "Content\resources\NonGitLFS\" -Recurse -Force
+4. Copy-Item -Path "coordination\backups\P005-20261006-174241\Content\Core\BluePrints\BP_propChar.uasset" -Destination "Content\Core\BluePrints\BP_propChar.uasset" -Force
+5. Copy-Item -Path "coordination\backups\P005-20261006-174241\Content\resources\Stylized_Egypt\Maps\Map1.umap" -Destination "Content\resources\Stylized_Egypt\Maps\Map1.umap" -Force
+6. Copy-Item -Path "coordination\backups\P005-20261006-174241\Config\DefaultGame.ini" -Destination "Config\DefaultGame.ini" -Force

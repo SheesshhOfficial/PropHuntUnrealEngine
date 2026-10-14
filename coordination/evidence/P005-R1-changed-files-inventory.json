@@ -1,0 +1,113 @@
+{
+  "timestamp": "2026-10-06T18:27:15+05:30",
+  "summary": {
+    "git_tracked_modified_files": 2,
+    "relocated_pack_assets_total": 1568,
+    "deleted_map_assets_total": 11,
+    "active_pack_assets_remaining": 1557,
+    "preserved_empty_folders": [
+      "Content/resources/NonGitLFS"
+    ]
+  },
+  "git_tracked_modifications": [
+    {
+      "path": "Config/DefaultGame.ini",
+      "status": "MODIFIED",
+      "purpose": "Removed +MapsToCook entries for Map3 and Map2 per explicit user instruction",
+      "current_sha256": "C177E7CBCE939A3EFF7ABFD25FF10D505C92195328FA1AC0589F90E1D6C90DF6",
+      "pre_task_sha256": "FE60D606F1BBEB8363072D17B0F3066AB11B29A041E60EE90B4B20D3D9086D67"
+    },
+    {
+      "path": "SheeshhPropHuntYT.uproject",
+      "status": "MODIFIED",
+      "purpose": "Pre-existing modification from Task P003 enabling Monolith editor plugin",
+      "current_sha256": "890EBEBAFE2F16A994B642C0EB631D19294248E591BD1916F4A801DDEB436D61"
+    }
+  ],
+  "relocated_packs": [
+    {
+      "source_dir": "Content/resources/NonGitLFS/CyberpunkIndustries",
+      "destination_dir": "Content/resources/CyberpunkIndustries",
+      "original_file_count": 317,
+      "deleted_map_files_count": 2,
+      "remaining_file_count": 315,
+      "operation": "unreal.EditorAssetLibrary.rename_directory"
+    },
+    {
+      "source_dir": "Content/resources/NonGitLFS/Downtown_West",
+      "destination_dir": "Content/resources/Downtown_West",
+      "original_file_count": 1251,
+      "deleted_map_files_count": 9,
+      "remaining_file_count": 1242,
+      "operation": "unreal.EditorAssetLibrary.rename_directory"
+    }
+  ],
+  "deleted_map_files": [
+    {
+      "pack": "CyberpunkIndustries",
+      "relative_path": "Content/resources/CyberpunkIndustries/Maps/Map3.umap",
+      "size_bytes": 5476460,
+      "backup_path": "coordination/backups/P005-20261006-174241/Content/resources/NonGitLFS/CyberpunkIndustries/Maps/Map3.umap"
+    },
+    {
+      "pack": "CyberpunkIndustries",
+      "relative_path": "Content/resources/CyberpunkIndustries/Maps/Map3_BuiltData.uasset",
+      "size_bytes": 99177087,
+      "backup_path": "coordination/backups/P005-20261006-174241/Content/resources/NonGitLFS/CyberpunkIndustries/Maps/Map3_BuiltData.uasset"
+    },
+    {
+      "pack": "Downtown_West",
+      "relative_path": "Content/resources/Downtown_West/Maps/Map2.umap",
+      "size_bytes": 57489979,
+      "backup_path": "coordination/backups/P005-20261006-174241/Content/resources/NonGitLFS/Downtown_West/Maps/Map2.umap"
+    },
+    {
+      "pack": "Downtown_West",
+      "relative_path": "Content/resources/Downtown_West/Maps/Map2_BuiltData.uasset",
+      "size_bytes": 9358975,
+      "backup_path": "coordination/backups/P005-20261006-174241/Content/resources/NonGitLFS/Downtown_West/Maps/Map2_BuiltData.uasset"
+    },
+    {
+      "pack": "Downtown_West",
+      "relative_path": "Content/resources/Downtown_West/Maps/Sub-Levels/Daytime_Lighting.umap",
+      "size_bytes": 512467,
+      "backup_path": "coordination/backups/P005-20261006-174241/Content/resources/NonGitLFS/Downtown_West/Maps/Sub-Levels/Daytime_Lighting.umap"
+    },
+    {
+      "pack": "Downtown_West",
+      "relative_path": "Content/resources/Downtown_West/Maps/Sub-Levels/Daytime_Lighting_BuiltData.uasset",
+      "size_bytes": 59345043,
+      "backup_path": "coordination/backups/P005-20261006-174241/Content/resources/NonGitLFS/Downtown_West/Maps/Sub-Levels/Daytime_Lighting_BuiltData.uasset"
+    },
+    {
+      "pack": "Downtown_West",
+      "relative_path": "Content/resources/Downtown_West/Maps/Sub-Levels/FX_Environment.umap",
+      "size_bytes": 16534,
+      "backup_path": "coordination/backups/P005-20261006-174241/Content/resources/NonGitLFS/Downtown_West/Maps/Sub-Levels/FX_Environment.umap"
+    },
+    {
+      "pack": "Downtown_West",
+      "relative_path": "Content/resources/Downtown_West/Maps/Sub-Levels/FX_Environment_BuiltData.uasset",
+      "size_bytes": 333211,
+      "backup_path": "coordination/backups/P005-20261006-174241/Content/resources/NonGitLFS/Downtown_West/Maps/Sub-Levels/FX_Environment_BuiltData.uasset"
+    },
+    {
+      "pack": "Downtown_West",
+      "relative_path": "Content/resources/Downtown_West/Maps/Sub-Levels/Night_Lighting.umap",
+      "size_bytes": 12837,
+      "backup_path": "coordination/backups/P005-20261006-174241/Content/resources/NonGitLFS/Downtown_West/Maps/Sub-Levels/Night_Lighting.umap"
+    },
+    {
+      "pack": "Downtown_West",
+      "relative_path": "Content/resources/Downtown_West/Maps/Sub-Levels/Nightime_Lighting.umap",
+      "size_bytes": 882228,
+      "backup_path": "coordination/backups/P005-20261006-174241/Content/resources/NonGitLFS/Downtown_West/Maps/Sub-Levels/Nightime_Lighting.umap"
+    },
+    {
+      "pack": "Downtown_West",
+      "relative_path": "Content/resources/Downtown_West/Maps/Sub-Levels/Nightime_Lighting_BuiltData.uasset",
+      "size_bytes": 32207856,
+      "backup_path": "coordination/backups/P005-20261006-174241/Content/resources/NonGitLFS/Downtown_West/Maps/Sub-Levels/Nightime_Lighting_BuiltData.uasset"
+    }
+  ]
+}

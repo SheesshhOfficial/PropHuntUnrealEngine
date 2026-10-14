@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-10-06T18:03:55+05:30",
+  "operations": [
+    {
+      "operation": "unreal.EditorAssetLibrary.rename_directory",
+      "source": "/Game/resources/NonGitLFS/CyberpunkIndustries",
+      "destination": "/Game/resources/CyberpunkIndustries",
+      "tool": "Monolith MCP editor_query / run_python",
+      "unattended": true,
+      "result": true,
+      "status": "SUCCESS"
+    },
+    {
+      "operation": "unreal.EditorAssetLibrary.rename_directory",
+      "source": "/Game/resources/NonGitLFS/Downtown_West",
+      "destination": "/Game/resources/Downtown_West",
+      "tool": "Monolith MCP editor_query / run_python",
+      "unattended": true,
+      "result": true,
+      "status": "SUCCESS"
+    },
+    {
+      "operation": "Editor Graceful Restart",
+      "previous_pid": 15152,
+      "new_pid": 18776,
+      "tool": "unreal.SystemLibrary.quit_editor() -> Start-Process UnrealEditor.exe",
+      "result": true,
+      "status": "SUCCESS"
+    },
+    {
+      "operation": "unreal.EditorAssetLibrary.delete_directory",
+      "path": "/Game/resources/CyberpunkIndustries/Maps",
+      "reason": "User explicit instruction: 'remove map 2 and 3 , i will ad them later'",
+      "tool": "Monolith MCP editor_query / run_python",
+      "unattended": true,
+      "result": true,
+      "status": "SUCCESS"
+    },
+    {
+      "operation": "unreal.EditorAssetLibrary.delete_directory",
+      "path": "/Game/resources/Downtown_West/Maps",
+      "reason": "User explicit instruction: 'remove map 2 and 3 , i will ad them later'",
+      "tool": "Monolith MCP editor_query / run_python",
+      "unattended": true,
+      "result": true,
+      "status": "SUCCESS"
+    },
+    {
+      "operation": "Config Update",
+      "file": "Config/DefaultGame.ini",
+      "change": "Removed +MapsToCook entries for Map3 and Map2",
+      "reason": "User explicit instruction to remove Map2 and Map3",
+      "status": "SUCCESS"
+    }
+  ]
+}

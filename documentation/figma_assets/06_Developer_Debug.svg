@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <style>
+      .bg { fill: #090B10; }
+      .header-title { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; font-size: 32px; fill: #F8FAFC; }
+      .header-sub { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 400; font-size: 15px; fill: #A855F7; }
+      .card-bg { fill: #10121B; stroke: #2E1065; stroke-width: 1.5; rx: 12px; }
+      .card-title { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 18px; fill: #C084FC; }
+      .body-txt { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 400; font-size: 13px; fill: #CBD5E1; line-height: 1.5; }
+      .bold-txt { font-weight: 700; fill: #F8FAFC; }
+      .accent-txt { fill: #A855F7; font-weight: 600; }
+      .badge-bg { fill: #3B0764; rx: 6px; }
+      .badge-txt { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 11px; fill: #E9D5FF; }
+      .code-box { fill: #1E1B4B; rx: 6px; stroke: #4338CA; }
+      .code-txt { font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; fill: #E0E7FF; }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect class="bg" width="1920" height="1080"/>
+
+  <!-- Top Navigation Header -->
+  <g transform="translate(80, 50)">
+    <text class="header-title" x="0" y="0">PAGE 06: Developer Debug HUD &amp; Security Architecture</text>
+    <text class="header-sub" x="0" y="28">Purple accent theme • Hardware telemetry readout, host authority gates, server-side bounds validation, and singleton cursor restore</text>
+  </g>
+
+  <!-- Left Column: Live Debug HUD Screenshot & Telemetry Overview -->
+  <g transform="translate(80, 120)">
+    <rect class="card-bg" width="580" height="880"/>
+    <text class="card-title" x="30" y="45">Developer Overlay (WBP_DevDebugHUD)</text>
+    <text class="body-txt" x="30" y="75">Input Mode: Non-blocking GameAndUI | Toggle Key: Backquote (`) / F8</text>
+
+    <!-- Screenshot Display -->
+    <rect x="30" y="100" width="520" height="420" rx="8" fill="#180B2B" stroke="#4C1D95"/>
+    <image href="Codex-debug-live.png" x="35" y="105" width="510" height="287" preserveAspectRatio="xMidYMid slice"/>
+    <rect x="30" y="395" width="520" height="125" fill="#2E1065" rx="0"/>
+    <text class="bold-txt" x="50" y="425" font-size="14">Figma Reference: [FIGMA-PH-017]</text>
+    <text class="body-txt" x="50" y="450" font-size="12">Captured in Standalone Multi-Client Test session.</text>
+    <text class="body-txt" x="50" y="475" font-size="12">Pointers: FPS [1], Frame Time [2], Net Ping [3], Role [4], Transform [5]</text>
+
+    <!-- Detailed Telemetry Specs -->
+    <g transform="translate(30, 545)">
+      <text class="bold-txt" x="0" y="20" font-size="15" fill="#C084FC">Live Telemetry Data Points</text>
+      
+      <rect x="0" y="35" width="520" height="50" fill="#1E1B4B" rx="6"/>
+      <circle cx="25" cy="60" r="12" fill="#A855F7"/>
+      <text x="25" y="64" fill="#FFFFFF" font-size="12" font-weight="800" text-anchor="middle">1</text>
+      <text class="bold-txt" x="50" y="55" font-size="13">FPS &amp; Frame Latency</text>
+      <text class="body-txt" x="50" y="72" font-size="11">Realtime delta time accumulation; smoothed over 60 ticks.</text>
+
+      <rect x="0" y="95" width="520" height="50" fill="#1E1B4B" rx="6"/>
+      <circle cx="25" cy="120" r="12" fill="#A855F7"/>
+      <text x="25" y="124" fill="#FFFFFF" font-size="12" font-weight="800" text-anchor="middle">2</text>
+      <text class="bold-txt" x="50" y="115" font-size="13">Net Ping &amp; Packet Health</text>
+      <text class="body-txt" x="50" y="132" font-size="11">APlayerState::ExactPing with round-trip packet drop indicator.</text>
+
+      <rect x="0" y="155" width="520" height="50" fill="#1E1B4B" rx="6"/>
+      <circle cx="25" cy="180" r="12" fill="#A855F7"/>
+      <text x="25" y="184" fill="#FFFFFF" font-size="12" font-weight="800" text-anchor="middle">3</text>
+      <text class="bold-txt" x="50" y="175" font-size="13">Active Player Role &amp; Pawn Class</text>
+      <text class="body-txt" x="50" y="192" font-size="11">Displays EPlayerRole::Hunter or Prop + active StaticMesh asset path.</text>
+
+      <rect x="0" y="215" width="520" height="50" fill="#1E1B4B" rx="6"/>
+      <circle cx="25" cy="240" r="12" fill="#A855F7"/>
+      <text x="25" y="244" fill="#FFFFFF" font-size="12" font-weight="800" text-anchor="middle">4</text>
+      <text class="bold-txt" x="50" y="235" font-size="13">Dynamic Actor Transform</text>
+      <text class="body-txt" x="50" y="252" font-size="11">World XYZ coordinates and rotator pitch/yaw/roll verification.</text>
+
+      <text class="accent-txt" x="0" y="295" font-size="12">Telemetry HUD is stripped automatically in Shipping distribution builds.</text>
+    </g>
+  </g>
+
+  <!-- Middle Column: Host Authority & Dynamic Server Gates -->
+  <g transform="translate(690, 120)">
+    <rect class="card-bg" width="560" height="880"/>
+    <text class="card-title" x="30" y="45">Host Authority &amp; Server-Side Guardrails</text>
+    <text class="body-txt" x="30" y="75">Strict role validation • Zero client trust on hit/transform events</text>
+
+    <!-- Architecture Visual Card 1: Authority Verification -->
+    <g transform="translate(30, 105)">
+      <rect x="0" y="0" width="500" height="180" fill="#180B2B" stroke="#6B21A8" rx="8"/>
+      <text class="bold-txt" x="20" y="30" font-size="15" fill="#E9D5FF">Host RPC Authority Gate [FIGMA-PH-018]</text>
+      <text class="body-txt" x="20" y="55">All critical game actions pass through HasAuthority() checks:</text>
+
+      <rect class="code-box" x="20" y="75" width="460" height="85"/>
+      <text class="code-txt" x="35" y="100">// Server-Authoritative Gate Pattern</text>
+      <text class="code-txt" x="35" y="120">if (!HasAuthority()) { return; }</text>
+      <text class="code-txt" x="35" y="140">ValidateTargetMesh(Mesh) &amp;&amp; CommitTransform(Mesh);</text>
+    </g>
+
+    <!-- Architecture Visual Card 2: Dynamic Hunter Count Clamping -->
+    <g transform="translate(30, 315)">
+      <rect x="0" y="0" width="500" height="190" fill="#180B2B" stroke="#6B21A8" rx="8"/>
+      <text class="bold-txt" x="20" y="30" font-size="15" fill="#E9D5FF">Dynamic Hunter Count Limits [FIGMA-PH-019]</text>
+      <text class="body-txt" x="20" y="55">Server limits hunter counts to actual connected player constraints:</text>
+
+      <text class="body-txt" x="20" y="90"><tspan class="bold-txt">1. Server Clamp:</tspan> Strictly clamped between 1 and PlayerCount - 1</text>
+      <text class="body-txt" x="20" y="115"><tspan class="bold-txt">2. Boundary Test:</tspan> With 2 players, inputs of 999 and -10 both clamp to 1</text>
+      <text class="body-txt" x="20" y="140"><tspan class="bold-txt">3. Prop Guarantee:</tspan> Prevents locking out props or assigning invalid team ratios</text>
+      <text class="body-txt" x="20" y="165"><tspan class="bold-txt">4. Client Denial:</tspan> Non-host remote clients see action buttons explicitly disabled</text>
+    </g>
+
+    <!-- Architecture Visual Card 3: Two-Click Confirmed Round Start -->
+    <g transform="translate(30, 535)">
+      <rect x="0" y="0" width="500" height="170" fill="#180B2B" stroke="#6B21A8" rx="8"/>
+      <text class="bold-txt" x="20" y="30" font-size="15" fill="#E9D5FF">Confirmed Round Start &amp; Server Prop</text>
+      <text class="body-txt" x="20" y="55">Prevents accidental match starts and duplicate triggers:</text>
+      <text class="body-txt" x="20" y="85">• Click 1: Arms confirmation dialog ("Confirm Start Round")</text>
+      <text class="body-txt" x="20" y="110">• Click 2: Authoritatively begins match countdown; permanently disables</text>
+      <text class="body-txt" x="20" y="135">• Server Prop: Forces host pawn transformation into BP_propChar</text>
+    </g>
+
+    <text class="accent-txt" x="30" y="740" font-size="13">Host commands verified in PIE multiplayer session tests.</text>
+  </g>
+
+  <!-- Right Column: Singleton Input Restorer & Engine Boundaries -->
+  <g transform="translate(1280, 120)">
+    <rect class="card-bg" width="560" height="880"/>
+    <text class="card-title" x="30" y="45">Input Management &amp; Cursor Restoration</text>
+    <text class="body-txt" x="30" y="75">Singleton Input Mode controller and fail-safe recovery</text>
+
+    <!-- Cursor State Flow -->
+    <g transform="translate(30, 105)">
+      <rect x="0" y="0" width="500" height="210" fill="#180B2B" stroke="#4C1D95" rx="8"/>
+      <text class="bold-txt" x="20" y="30" font-size="15" fill="#E9D5FF">Singleton Input Mode Restorer [FIGMA-PH-020]</text>
+      <text class="body-txt" x="20" y="55">Prevents trapped or invisible cursor bugs across UI transitions:</text>
+
+      <rect x="20" y="80" width="460" height="35" rx="4" fill="#3B0764"/>
+      <text class="bold-txt" x="35" y="102" font-size="12" fill="#E9D5FF">State A: UI Stack &gt; 0</text>
+      <text class="body-txt" x="220" y="102" font-size="11">SetInputMode_UIOnly | bShowMouseCursor = true</text>
+
+      <rect x="20" y="125" width="460" height="35" rx="4" fill="#3B0764"/>
+      <text class="bold-txt" x="35" y="147" font-size="12" fill="#E9D5FF">State B: UI Stack == 0</text>
+      <text class="body-txt" x="220" y="147" font-size="11">SetInputMode_GameOnly | bShowMouseCursor = false</text>
+
+      <rect x="20" y="170" width="460" height="30" rx="4" fill="#1E1B4B"/>
+      <text class="accent-txt" x="35" y="190" font-size="11">Fail-Safe: Any viewport click restores focus if widget unhandled.</text>
+    </g>
+
+    <!-- Honest Engine Gaps / Gaps Box -->
+    <g transform="translate(30, 345)">
+      <rect x="0" y="0" width="500" height="240" fill="#3B0764" fill-opacity="0.3" stroke="#A855F7" rx="8"/>
+      <text class="bold-txt" x="20" y="30" font-size="15" fill="#F3E8FF">Honest Verification Boundaries &amp; Status</text>
+      
+      <text class="body-txt" x="20" y="60"><tspan class="bold-txt" fill="#34D399">[VERIFIED]</tspan> Telemetry calculations in Standalone &amp; PIE</text>
+      <text class="body-txt" x="20" y="85"><tspan class="bold-txt" fill="#34D399">[VERIFIED]</tspan> Host RPC authority checks on Hunter fire and Prop taunt</text>
+      <text class="body-txt" x="20" y="110"><tspan class="bold-txt" fill="#34D399">[VERIFIED]</tspan> Resolution 720p 6-row layout scaling without clipping</text>
+      
+      <text class="body-txt" x="20" y="145"><tspan class="bold-txt" fill="#F59E0B">[UNVERIFIED]</tspan> Physical ESC key triggering pause in Shipping Build</text>
+      <text class="body-txt" x="20" y="170"><tspan class="bold-txt" fill="#F59E0B">[UNVERIFIED]</tspan> Fresh full-packaged distribution build run</text>
+      <text class="body-txt" x="20" y="195"><tspan class="body-txt">All documentation notes these gaps clearly per project rules.</tspan></text>
+    </g>
+
+    <!-- Reference Manifest -->
+    <g transform="translate(30, 615)">
+      <rect x="0" y="0" width="500" height="215" rx="8" fill="#180B2B" stroke="#4C1D95"/>
+      <text class="bold-txt" x="20" y="30" font-size="14" fill="#E9D5FF">Debug Manifest Reference IDs</text>
+      <text class="body-txt" x="20" y="60">• [FIGMA-PH-017]: Dev Debug Overlay Screen (1920x1080)</text>
+      <text class="body-txt" x="20" y="85">• [FIGMA-PH-018]: Host RPC Authority Gate Flowchart</text>
+      <text class="body-txt" x="20" y="110">• [FIGMA-PH-019]: Server Mesh Bounds Clamping Diagram</text>
+      <text class="body-txt" x="20" y="135">• [FIGMA-PH-020]: Singleton Input Mode Recovery Logic</text>
+      <text class="body-txt" x="20" y="160">• Live Snapshot: Codex-debug-live.png</text>
+      <text class="body-txt" x="20" y="185">• Preview Snapshot: Codex-debug-1920-preview.png</text>
+    </g>
+  </g>
+</svg>

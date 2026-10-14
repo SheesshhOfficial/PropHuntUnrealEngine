@@ -1,0 +1,258 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <style>
+      .bg { fill: #0B0F19; }
+      .header-title { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; font-size: 32px; fill: #F8FAFC; }
+      .header-sub { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 400; font-size: 15px; fill: #94A3B8; }
+      .card-bg { fill: #111827; stroke: #1F2937; stroke-width: 1.5; rx: 12px; }
+      .card-title { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 18px; fill: #38BDF8; }
+      .body-txt { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 400; font-size: 13px; fill: #CBD5E1; line-height: 1.5; }
+      .bold-txt { font-weight: 700; fill: #F8FAFC; }
+      .swatch { rx: 6px; stroke-width: 1; stroke: #374151; }
+      .swatch-label { font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600; fill: #9CA3AF; text-anchor: middle; }
+      .table-hdr { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 12px; fill: #9CA3AF; }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect class="bg" width="1920" height="1080"/>
+
+  <!-- Top Navigation Header -->
+  <g transform="translate(80, 50)">
+    <text class="header-title" x="0" y="0">PAGE 07: Feature Status Atlas, Design Tokens &amp; Component System</text>
+    <text class="header-sub" x="0" y="28">Comprehensive system catalog • Status matrix, UI color swatches, typography scales, callout pins, and placeholder card specs</text>
+  </g>
+
+  <!-- Left Column: Feature Status Atlas Table -->
+  <g transform="translate(80, 120)">
+    <rect class="card-bg" width="700" height="880"/>
+    <text class="card-title" x="30" y="45">Feature Atlas &amp; Verification Matrix</text>
+    <text class="body-txt" x="30" y="70">Comprehensive status across core game subsystems</text>
+
+    <!-- Table Header -->
+    <g transform="translate(30, 95)">
+      <rect x="0" y="0" width="640" height="30" fill="#1F2937" rx="4"/>
+      <text class="table-hdr" x="15" y="20">FEATURE / SUBSYSTEM</text>
+      <text class="table-hdr" x="250" y="20">SCOPE / COMPONENT</text>
+      <text class="table-hdr" x="480" y="20">STATUS</text>
+
+      <!-- Row 1: Session Management -->
+      <rect x="0" y="38" width="640" height="48" fill="#131B2E" rx="4"/>
+      <text class="bold-txt" x="15" y="60" font-size="13">Session Hosting &amp; Browsing</text>
+      <text class="body-txt" x="15" y="76" font-size="11">LAN + Online Server Listeners</text>
+      <text class="body-txt" x="250" y="67" font-size="12">WBP_MainMenu &amp; SessionSubsystem</text>
+      <rect x="480" y="50" width="85" height="24" rx="4" fill="#065F46"/>
+      <text class="bold-txt" x="495" y="66" font-size="11" fill="#6EE7B7">COMPLETE</text>
+
+      <!-- Row 2: Hunter Mechanics -->
+      <rect x="0" y="94" width="640" height="48" fill="#131B2E" rx="4"/>
+      <text class="bold-txt" x="15" y="116" font-size="13">Hunter HUD &amp; Weapon Firing</text>
+      <text class="body-txt" x="15" y="132" font-size="11">Health, Ammo, Hit Confirm &amp; Spread</text>
+      <text class="body-txt" x="250" y="123" font-size="12">BP_HunterCharacter &amp; WBP_HunterHUD</text>
+      <rect x="480" y="106" width="85" height="24" rx="4" fill="#065F46"/>
+      <text class="bold-txt" x="495" y="122" font-size="11" fill="#6EE7B7">COMPLETE</text>
+
+      <!-- Row 3: Prop Mechanics -->
+      <rect x="0" y="150" width="640" height="48" fill="#131B2E" rx="4"/>
+      <text class="bold-txt" x="15" y="172" font-size="13">Prop Transformation &amp; Taunt</text>
+      <text class="body-txt" x="15" y="188" font-size="11">Trace swap, pitch lock, audio taunt</text>
+      <text class="body-txt" x="250" y="179" font-size="12">BP_PropCharacter &amp; WBP_PropHUD</text>
+      <rect x="480" y="162" width="85" height="24" rx="4" fill="#065F46"/>
+      <text class="bold-txt" x="495" y="178" font-size="11" fill="#6EE7B7">COMPLETE</text>
+
+      <!-- Row 4: Video Settings -->
+      <rect x="0" y="206" width="640" height="48" fill="#131B2E" rx="4"/>
+      <text class="bold-txt" x="15" y="228" font-size="13">Video Settings (720p scaling)</text>
+      <text class="body-txt" x="15" y="244" font-size="11">6-row scroll scaling, GameUserSettings</text>
+      <text class="body-txt" x="250" y="235" font-size="12">WBP_SettingsMenu (Video tab)</text>
+      <rect x="480" y="218" width="85" height="24" rx="4" fill="#065F46"/>
+      <text class="bold-txt" x="495" y="234" font-size="11" fill="#6EE7B7">COMPLETE</text>
+
+      <!-- Row 5: Audio Settings -->
+      <rect x="0" y="262" width="640" height="48" fill="#131B2E" rx="4"/>
+      <text class="bold-txt" x="15" y="284" font-size="13">Audio Sliders &amp; Gain Modifiers</text>
+      <text class="body-txt" x="15" y="300" font-size="11">Scalar 0–1 conversion with % readout</text>
+      <text class="body-txt" x="250" y="291" font-size="12">WBP_SettingsMenu (Audio tab)</text>
+      <rect x="480" y="274" width="85" height="24" rx="4" fill="#065F46"/>
+      <text class="bold-txt" x="495" y="290" font-size="11" fill="#6EE7B7">COMPLETE</text>
+
+      <!-- Row 6: Dev Telemetry -->
+      <rect x="0" y="318" width="640" height="48" fill="#131B2E" rx="4"/>
+      <text class="bold-txt" x="15" y="340" font-size="13">Developer Telemetry Overlay</text>
+      <text class="body-txt" x="15" y="356" font-size="11">FPS, Ping, Transform, Role inspect</text>
+      <text class="body-txt" x="250" y="347" font-size="12">WBP_DevDebugHUD</text>
+      <rect x="480" y="330" width="85" height="24" rx="4" fill="#065F46"/>
+      <text class="bold-txt" x="495" y="346" font-size="11" fill="#6EE7B7">COMPLETE</text>
+
+      <!-- Row 7: Physical Pause Key Hook -->
+      <rect x="0" y="374" width="640" height="48" fill="#131B2E" rx="4"/>
+      <text class="bold-txt" x="15" y="396" font-size="13">Physical Pause Key Binding</text>
+      <text class="body-txt" x="15" y="412" font-size="11">Esc / M hardware input in packaged</text>
+      <text class="body-txt" x="250" y="403" font-size="12">DefaultInput.ini &amp; PlayerController</text>
+      <rect x="480" y="386" width="95" height="24" rx="4" fill="#78350F"/>
+      <text class="bold-txt" x="490" y="402" font-size="11" fill="#FDE68A">UNVERIFIED</text>
+
+      <!-- Row 8: Packaged Distribution Build -->
+      <rect x="0" y="430" width="640" height="48" fill="#131B2E" rx="4"/>
+      <text class="bold-txt" x="15" y="452" font-size="13">Fresh Packaged Build Test</text>
+      <text class="body-txt" x="15" y="468" font-size="11">Clean monolithic client package run</text>
+      <text class="body-txt" x="250" y="459" font-size="12">Build Automation Tool (UAT)</text>
+      <rect x="480" y="442" width="95" height="24" rx="4" fill="#78350F"/>
+      <text class="bold-txt" x="490" y="458" font-size="11" fill="#FDE68A">UNVERIFIED</text>
+    </g>
+
+    <!-- Atlas Summary Statistics -->
+    <g transform="translate(30, 620)">
+      <rect x="0" y="0" width="640" height="210" fill="#1E293B" rx="8"/>
+      <text class="bold-txt" x="20" y="35" font-size="14" fill="#38BDF8">Feature Atlas Evidence Breakdown</text>
+      <text class="body-txt" x="20" y="65">• [USER-TESTED]: Match round timer lifecycle, prop disguise &amp; search gameplay</text>
+      <text class="body-txt" x="20" y="90">• [INDEPENDENTLY VERIFIED]: Settings persistence (video/audio/aim), 720p scaling, debug host gates</text>
+      <text class="body-txt" x="20" y="115">• [GAP]: Physical keyboard input hooks (Esc, M, Tilde), background music audio asset</text>
+      <text class="body-txt" x="20" y="140">• [REPORT-ONLY]: Fresh monolithic packaged client execution (historical cook exit 0)</text>
+      <text class="body-txt" x="20" y="165">• [PLANNED]: Additional Map1 props, Internet matchmaking (Steam OSS), VOIP</text>
+    </g>
+  </g>
+
+  <!-- Middle Column: Design Tokens & Palette Swatches -->
+  <g transform="translate(810, 120)">
+    <rect class="card-bg" width="500" height="880"/>
+    <text class="card-title" x="30" y="45">Design Tokens &amp; Color Palette</text>
+    <text class="body-txt" x="30" y="70">Standardized swatches for UI and presentation graphics</text>
+
+    <!-- Color Swatches Grid -->
+    <g transform="translate(30, 100)">
+      <!-- Swatch 1: Background Base -->
+      <rect class="swatch" x="0" y="0" width="95" height="60" fill="#0B0E14"/>
+      <text class="swatch-label" x="47" y="78">#0B0E14</text>
+      <text class="swatch-label" x="47" y="93" fill="#64748B">Canvas Bg</text>
+
+      <!-- Swatch 2: Card Base -->
+      <rect class="swatch" x="115" y="0" width="95" height="60" fill="#111622"/>
+      <text class="swatch-label" x="162" y="78">#111622</text>
+      <text class="swatch-label" x="162" y="93" fill="#64748B">Card Bg</text>
+
+      <!-- Swatch 3: Card Border -->
+      <rect class="swatch" x="230" y="0" width="95" height="60" fill="#1E293B"/>
+      <text class="swatch-label" x="277" y="78">#1E293B</text>
+      <text class="swatch-label" x="277" y="93" fill="#64748B">Border Stroke</text>
+
+      <!-- Swatch 4: Primary Text -->
+      <rect class="swatch" x="345" y="0" width="95" height="60" fill="#F8FAFC"/>
+      <text class="swatch-label" x="392" y="78">#F8FAFC</text>
+      <text class="swatch-label" x="392" y="93" fill="#64748B">Primary Text</text>
+
+      <!-- Row 2 Swatches -->
+      <!-- Hunter Red -->
+      <rect class="swatch" x="0" y="120" width="95" height="60" fill="#EF4444"/>
+      <text class="swatch-label" x="47" y="198">#EF4444</text>
+      <text class="swatch-label" x="47" y="213" fill="#EF4444">Hunter Accent</text>
+
+      <!-- Prop Green -->
+      <rect class="swatch" x="115" y="120" width="95" height="60" fill="#10B981"/>
+      <text class="swatch-label" x="162" y="198">#10B981</text>
+      <text class="swatch-label" x="162" y="213" fill="#10B981">Prop Accent</text>
+
+      <!-- Primary Cyan -->
+      <rect class="swatch" x="230" y="120" width="95" height="60" fill="#38BDF8"/>
+      <text class="swatch-label" x="277" y="198">#38BDF8</text>
+      <text class="swatch-label" x="277" y="213" fill="#38BDF8">Primary Cyan</text>
+
+      <!-- Debug Purple -->
+      <rect class="swatch" x="345" y="120" width="95" height="60" fill="#A855F7"/>
+      <text class="swatch-label" x="392" y="198">#A855F7</text>
+      <text class="swatch-label" x="392" y="213" fill="#A855F7">Debug Accent</text>
+    </g>
+
+    <!-- Typography Specs -->
+    <g transform="translate(30, 360)">
+      <text class="bold-txt" x="0" y="20" font-size="15" fill="#38BDF8">Standardized Typography Scales</text>
+      
+      <text class="bold-txt" x="0" y="55" font-size="24">Header 1 (24px / 800 Bold)</text>
+      <text class="body-txt" x="0" y="75" font-size="12">Used for major frame headers and slide banner titles</text>
+
+      <text class="bold-txt" x="0" y="115" font-size="18">Header 2 (18px / 700 SemiBold)</text>
+      <text class="body-txt" x="0" y="135" font-size="12">Used for card titles and section headers</text>
+
+      <text class="bold-txt" x="0" y="175" font-size="14">Body Regular (13px / 400 Regular)</text>
+      <text class="body-txt" x="0" y="195" font-size="12">Standard body text for descriptions and metadata readouts</text>
+
+      <text class="bold-txt" x="0" y="235" font-size="11" font-family="'Consolas', monospace">Code / Telemetry (11px / Monospace)</text>
+      <text class="body-txt" x="0" y="255" font-size="12">Used for coordinate readouts, RPC names, and manifest tags</text>
+    </g>
+
+    <!-- Spacing & Geometry Rules -->
+    <g transform="translate(30, 680)">
+      <rect x="0" y="0" width="440" height="150" fill="#1E293B" rx="8"/>
+      <text class="bold-txt" x="20" y="30" font-size="14" fill="#F8FAFC">Layout Grid &amp; Sizing Specs</text>
+      <text class="body-txt" x="20" y="55">• Frame Artboard Dimensions: 1920px x 1080px (16:9 standard)</text>
+      <text class="body-txt" x="20" y="78">• Outer Margin: 80px horizontal, 50px vertical</text>
+      <text class="body-txt" x="20" y="101">• Card Corner Radius: 12px | Swatch Corner Radius: 6px</text>
+      <text class="body-txt" x="20" y="124">• Grid Column Gutter: 30px to 40px spacing</text>
+    </g>
+  </g>
+
+  <!-- Right Column: Reusable Callouts & Placeholder Component Specs -->
+  <g transform="translate(1340, 120)">
+    <rect class="card-bg" width="500" height="880"/>
+    <text class="card-title" x="30" y="45">Component System &amp; Callout Pins</text>
+    <text class="body-txt" x="30" y="70">Reusable symbols for pointers, badges, and image slots</text>
+
+    <!-- Component: Numbered Callout Pins -->
+    <g transform="translate(30, 105)">
+      <text class="bold-txt" x="0" y="20" font-size="15" fill="#38BDF8">Callout Pin Component Library</text>
+      <text class="body-txt" x="0" y="40">Color-coded numbered markers for screen annotations</text>
+
+      <g transform="translate(0, 55)">
+        <circle cx="20" cy="20" r="16" fill="#EF4444"/>
+        <text x="20" y="25" fill="#FFFFFF" font-family="sans-serif" font-weight="800" font-size="14" text-anchor="middle">1</text>
+        <text class="bold-txt" x="50" y="18" font-size="13">Hunter / Critical Marker</text>
+        <text class="body-txt" x="50" y="34" font-size="11">Used for weapon, reticle, and failure points</text>
+      </g>
+
+      <g transform="translate(0, 115)">
+        <circle cx="20" cy="20" r="16" fill="#10B981"/>
+        <text x="20" y="25" fill="#FFFFFF" font-family="sans-serif" font-weight="800" font-size="14" text-anchor="middle">2</text>
+        <text class="bold-txt" x="50" y="18" font-size="13">Prop / Success Marker</text>
+        <text class="body-txt" x="50" y="34" font-size="11">Used for transform meshes, taunts, and valid state</text>
+      </g>
+
+      <g transform="translate(0, 175)">
+        <circle cx="20" cy="20" r="16" fill="#38BDF8"/>
+        <text x="20" y="25" fill="#FFFFFF" font-family="sans-serif" font-weight="800" font-size="14" text-anchor="middle">3</text>
+        <text class="bold-txt" x="50" y="18" font-size="13">System / Navigation Marker</text>
+        <text class="body-txt" x="50" y="34" font-size="11">Used for menu buttons, sliders, and session controls</text>
+      </g>
+
+      <g transform="translate(0, 235)">
+        <circle cx="20" cy="20" r="16" fill="#A855F7"/>
+        <text x="20" y="25" fill="#FFFFFF" font-family="sans-serif" font-weight="800" font-size="14" text-anchor="middle">4</text>
+        <text class="bold-txt" x="50" y="18" font-size="13">Debug / Telemetry Marker</text>
+        <text class="body-txt" x="50" y="34" font-size="11">Used for FPS, Ping, Transform, and RPC gates</text>
+      </g>
+    </g>
+
+    <!-- Component: Image Placeholder Template Card -->
+    <g transform="translate(30, 430)">
+      <text class="bold-txt" x="0" y="20" font-size="15" fill="#38BDF8">Image Placeholder Template Specification</text>
+      <text class="body-txt" x="0" y="40">Standardized card for missing or draft screenshot slots</text>
+
+      <rect x="0" y="55" width="440" height="200" rx="8" fill="#1E293B" stroke="#475569" stroke-dasharray="6,4"/>
+      <text class="bold-txt" x="20" y="85" font-size="14" fill="#93C5FD">[IMAGE-PLACEHOLDER-ID]</text>
+      <text class="body-txt" x="20" y="110" font-size="12">Target Dimensions: 1920x1080 (16:9 aspect ratio)</text>
+      <text class="body-txt" x="20" y="130" font-size="12">Capture Mode: Standalone Multiplayer Test / Clean Viewport</text>
+      <text class="body-txt" x="20" y="150" font-size="12">Instruction: Capture clean shot without developer console open</text>
+      <rect x="20" y="175" width="400" height="60" rx="4" fill="#0F172A"/>
+      <text class="body-txt" x="35" y="198" font-size="11" fill="#94A3B8">Drop real screenshot into this slot or reference via</text>
+      <text class="bold-txt" x="35" y="218" font-size="12" fill="#38BDF8">documentation/FIGMA_IMAGE_PLACEHOLDERS.csv</text>
+    </g>
+
+    <!-- Quick Links -->
+    <g transform="translate(30, 720)">
+      <rect x="0" y="0" width="440" height="110" fill="#180B2B" stroke="#4C1D95" rx="8"/>
+      <text class="bold-txt" x="20" y="30" font-size="14" fill="#E9D5FF">Figma Import Quick Guide</text>
+      <text class="body-txt" x="20" y="55">1. Drag this SVG directly into your Figma workspace</text>
+      <text class="body-txt" x="20" y="75">2. Text layers import as native editable typography</text>
+      <text class="body-txt" x="20" y="95">3. Swatches and markers can be converted into Figma Components</text>
+    </g>
+  </g>
+</svg>

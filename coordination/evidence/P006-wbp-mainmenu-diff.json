@@ -1,0 +1,58 @@
+{
+  "asset_path": "/Game/Core/Widgets/MainMenu/UI/WBP_MainMenu",
+  "widgets": {
+    "Map1": {
+      "class": "Button",
+      "bIsEnabled": true,
+      "IsFocusable": true,
+      "Visibility": "Visible",
+      "status": "PRESERVED_ENABLED"
+    },
+    "Map2": {
+      "class": "Button",
+      "diff": {
+        "bIsEnabled": {
+          "before": "True",
+          "after": "False",
+          "status": "CHANGED"
+        },
+        "IsFocusable": {
+          "before": "True",
+          "after": "False",
+          "status": "CHANGED"
+        },
+        "Visibility": {
+          "before": "Visible",
+          "after": "Visible",
+          "status": "PRESERVED (Preserves layout and appearance)"
+        }
+      }
+    },
+    "Map3": {
+      "class": "Button",
+      "diff": {
+        "bIsEnabled": {
+          "before": "True",
+          "after": "False",
+          "status": "CHANGED"
+        },
+        "IsFocusable": {
+          "before": "True",
+          "after": "False",
+          "status": "CHANGED"
+        },
+        "Visibility": {
+          "before": "Visible",
+          "after": "Visible",
+          "status": "PRESERVED (Preserves layout and appearance)"
+        }
+      }
+    }
+  },
+  "runtime_bindings_check": {
+    "construct_event": "Does not mutate Map2/Map3 properties",
+    "graph_references_to_Map2_button": "0 variable references",
+    "graph_references_to_Map3_button": "0 variable references",
+    "conclusion": "Buttons remain permanently disabled at runtime without risk of being re-enabled"
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "build_timestamp": "2026-10-06T17:43:54Z",
+  "configuration": "Shipping",
+  "platform": "Win64",
+  "engine_version": "5.7.4",
+  "archive_directory": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Builds\\P009-20261006_225800\\Windows",
+  "artifacts": [
+    {
+      "relative_path": "Manifest_NonUFSFiles_Win64.txt",
+      "size_bytes": 2493,
+      "size_mb": 0.0,
+      "sha256": "8ADFA27245FF10865635A0AAB1B230E10F1ABAA8FF2F90C8B8476C313777A66B"
+    },
+    {
+      "relative_path": "Manifest_UFSFiles_Win64.txt",
+      "size_bytes": 424313,
+      "size_mb": 0.4,
+      "sha256": "39034C65F282698A52745088E57F5A5CA3077618D8A7BADAD39A4A029C577288"
+    },
+    {
+      "relative_path": "SheeshhPropHuntYT.exe",
+      "size_bytes": 164864,
+      "size_mb": 0.16,
+      "sha256": "60672AE32494CDA671A501FFC0DEE7861C42834C1B3D426D3ED2104755C7AC9F"
+    },
+    {
+      "relative_path": "Engine\\Binaries\\ThirdParty\\DbgHelp\\dbghelp.dll",
+      "size_bytes": 2232688,
+      "size_mb": 2.13,
+      "sha256": "D65DFF2EBE90BF79FBA62F3BB1F105A7CE8EFAEFAA8349379A886BB893A4EF45"
+    },
+    {
+      "relative_path": "Engine\\Binaries\\ThirdParty\\MsQuic\\v220\\win64\\msquic.dll",
+      "size_bytes": 2547080,
+      "size_mb": 2.43,
+      "sha256": "832F4AE560B1623AA4D8F87B982E9C9414312723FBC905DDAB93FD80D7F1CEA2"
+    },
+    {
+      "relative_path": "Engine\\Binaries\\ThirdParty\\NVIDIA\\NVaftermath\\Win64\\GFSDK_Aftermath_Lib.x64.dll",
+      "size_bytes": 5442592,
+      "size_mb": 5.19,
+      "sha256": "F2F1A88185345B28D05673E11111EE21845F3EBE65919CF6B3085BEE7D09E30A"
+    },
+    {
+      "relative_path": "Engine\\Binaries\\ThirdParty\\Ogg\\Win64\\VS2015\\libogg_64.dll",
+      "size_bytes": 59832,
+      "size_mb": 0.06,
+      "sha256": "1E2FE8A3DFE9616EDCB3CD3A5A958C791F690D5B604EB1658B0F844CEF156EEE"
+    },
+    {
+      "relative_path": "Engine\\Binaries\\ThirdParty\\Steamworks\\Steamv161\\Win64\\steam_api64.dll",
+      "size_bytes": 330296,
+      "size_mb": 0.31,
+      "sha256": "7A991D4A08A51E34721EAFB439AC0A144BEE410817411B2F9AA3C74425A997F1"
+    },
+    {
+      "relative_path": "Engine\\Binaries\\ThirdParty\\Vorbis\\Win64\\VS2015\\libvorbisfile_64.dll",
+      "size_bytes": 48568,
+      "size_mb": 0.05,
+      "sha256": "CEB067771C03AE1A7AFC125C15C85DBAB027AAEC72575DC101C618EBA2BAFEA0"
+    },
+    {
+      "relative_path": "Engine\\Binaries\\ThirdParty\\Vorbis\\Win64\\VS2015\\libvorbis_64.dll",
+      "size_bytes": 1724856,
+      "size_mb": 1.64,
+      "sha256": "676BBDC5838755D7A881C847F84CA79997B525882594B66160AB800676CAB9C0"
+    },
+    {
+      "relative_path": "Engine\\Binaries\\ThirdParty\\Windows\\XAudio2_9\\x64\\xaudio2_9redist.dll",
+      "size_bytes": 858144,
+      "size_mb": 0.82,
+      "sha256": "013984E33E884BD0B823734AB86A599A8DCEFFED675039FF293D15FFCF7F2BE9"
+    },
+    {
+      "relative_path": "Engine\\Config\\StagedBuild_SheeshhPropHuntYT.ini",
+      "size_bytes": 3,
+      "size_mb": 0.0,
+      "sha256": "F1945CD6C19E56B3C1C78943EF5EC18116907A4CA1EFC40A57D48AB1DB7ADFC5"
+    },
+    {
+      "relative_path": "Engine\\Content\\Renderer\\TessellationTable.bin",
+      "size_bytes": 259568,
+      "size_mb": 0.25,
+      "sha256": "EDC4F3B628A139C5E185BBAECA661C95C1F427368D3B92892C5CFF36C56DD941"
+    },
+    {
+      "relative_path": "Engine\\Content\\Slate\\Cursor\\invisible.cur",
+      "size_bytes": 326,
+      "size_mb": 0.0,
+      "sha256": "FEF3980FA567E9C45D5D8DCAA432A2C1A3F3BB17FE67D7AB198164F56C142AA1"
+    },
+    {
+      "relative_path": "Engine\\Extras\\Redist\\en-us\\vc_redist.arm64.exe",
+      "size_bytes": 11733048,
+      "size_mb": 11.19,
+      "sha256": "07698E7186563F0F9C78C37B2ACB58136813FD5CFB068D41A339BE2EE5B49CEF"
+    },
+    {
+      "relative_path": "Engine\\Extras\\Redist\\en-us\\vc_redist.x64.exe",
+      "size_bytes": 25646472,
+      "size_mb": 24.46,
+      "sha256": "D027D8EB8EDBEF6C8740683B41D00442F4108351C034B9E0CB36FFF27349B5BE"
+    },
+    {
+      "relative_path": "Engine\\Plugins\\NNE\\NNERuntimeORT\\Binaries\\ThirdParty\\Onnxruntime\\Win64\\onnxruntime.dll",
+      "size_bytes": 14692872,
+      "size_mb": 14.01,
+      "sha256": "381497F383B457180ABA6E5BF56A2EB18CEFD6735CFD47257539F6D87FBC8584"
+    },
+    {
+      "relative_path": "SheeshhPropHuntYT\\Binaries\\Win64\\boost_atomic-mt-x64.dll",
+      "size_bytes": 28088,
+      "size_mb": 0.03,
+      "sha256": "E6B715188B70D0A0070E366B412B2982B95FEA64B1410524C67F980763E6E01D"
+    },
+    {
+      "relative_path": "SheeshhPropHuntYT\\Binaries\\Win64\\boost_chrono-mt-x64.dll",
+      "size_bytes": 46520,
+      "size_mb": 0.04,
+      "sha256": "9125FA2F42070286D1353C46D809AE1E204D2DC5E2791FE505CDCA147646B6C6"
+    },
+    {
+      "relative_path": "SheeshhPropHuntYT\\Binaries\\Win64\\boost_filesystem-mt-x64.dll",
+      "size_bytes": 163256,
+      "size_mb": 0.16,
+      "sha256": "BAC93301634C718820B277FB8CC21D22A1522EEBE210C0AD078651AE1F9E9A12"
+    },
+    {
+      "relative_path": "SheeshhPropHuntYT\\Binaries\\Win64\\boost_iostreams-mt-x64.dll",
+      "size_bytes": 59832,
+      "size_mb": 0.06,
+      "sha256": "DE07BDD15F5FC107BBE826D63B59BC561A32E0DFA4A7039594E389081C27A4B1"
+    },
+    {
+      "relative_path": "SheeshhPropHuntYT\\Binaries\\Win64\\boost_program_options-mt-x64.dll",
+      "size_bytes": 355768,
+      "size_mb": 0.34,
+      "sha256": "E2D9BF8287ECE32C8A95983E222F7F08AF404223E124F6E3AD5AD62C1F0CD1E9"
+    },
+    {
+      "relative_path": "SheeshhPropHuntYT\\Binaries\\Win64\\boost_python311-mt-x64.dll",
+      "size_bytes": 204728,
+      "size_mb": 0.2,
+      "sha256": "D4B58036F2ACE9D641BB0A910E2F937CFBEFA5BD59438D6BF3B580162F417A2A"
+    },
+    {
+      "relative_path": "SheeshhPropHuntYT\\Binaries\\Win64\\boost_regex-mt-x64.dll",
+      "size_bytes": 240056,
+      "size_mb": 0.23,
+      "sha256": "EC82A45C59E0AC30CB817F08E34BE3EC71A002D09FAE941CD84260D54622881E"
+    },
+    {
+      "relative_path": "SheeshhPropHuntYT\\Binaries\\Win64\\boost_system-mt-x64.dll",
+      "size_bytes": 20408,
+      "size_mb": 0.02,
+      "sha256": "55177F1E05CA85ACDB376B3573D2BB3E1093C1AE8B31715C2E41F26C0EC20A5B"
+    },
+    {
+      "relative_path": "SheeshhPropHuntYT\\Binaries\\Win64\\boost_thread-mt-x64.dll",
+      "size_bytes": 85432,
+      "size_mb": 0.08,
+      "sha256": "B632DCB81439EF18D4016459F357CB8C3E4A13D64FC780973896D22D80BE422B"
+    },
+    {
+      "relative_path": "SheeshhPropHuntYT\\Binaries\\Win64\\SheeshhPropHuntYT-Win64-Shipping.exe",
+      "size_bytes": 146229248,
+      "size_mb": 139.46,
+      "sha256": "SKIPPED_LARGE_FILE"
+    },
+    {
+      "relative_path": "SheeshhPropHuntYT\\Binaries\\Win64\\tbb12.dll",
+      "size_bytes": 331704,
+      "size_mb": 0.32,
+      "sha256": "645B681E3581C04D57F468BD85C17648172DECF873653AB00382211B96CC98FB"
+    },
+    {
+      "relative_path": "SheeshhPropHuntYT\\Binaries\\Win64\\tbbmalloc.dll",
+      "size_bytes": 117688,
+      "size_mb": 0.11,
+      "sha256": "F81A11F2E6E93036BAB4E51A1DAAB9940FB8A9A5EC0F508C4CB76D398E27C100"
+    },
+    {
+      "relative_path": "SheeshhPropHuntYT\\Binaries\\Win64\\D3D12\\x64\\D3D12Core.dll",
+      "size_bytes": 4544000,
+      "size_mb": 4.33,
+      "sha256": "FB197903FEA91AAF352D2322F342B1CEC8DB36FF0292A49F24173577E08F26CF"
+    },
+    {
+      "relative_path": "SheeshhPropHuntYT\\Binaries\\Win64\\D3D12\\x64\\d3d12SDKLayers.dll",
+      "size_bytes": 5104632,
+      "size_mb": 4.87,
+      "sha256": "A817223446F53B3DA894EDB1EE7A92B94573690E689A9470B87BF42866115F91"
+    },
+    {
+      "relative_path": "SheeshhPropHuntYT\\Binaries\\Win64\\DML\\x64\\DirectML.dll",
+      "size_bytes": 18537968,
+      "size_mb": 17.68,
+      "sha256": "664255A3D9A6B976E2D0E2440403537D9D0DD91B1FAD866768638B4E73A2C33A"
+    },
+    {
+      "relative_path": "SheeshhPropHuntYT\\Content\\Paks\\global.ucas",
+      "size_bytes": 2984016,
+      "size_mb": 2.85,
+      "sha256": "106E90229CE9BBE507CDA5E33A054AEFE9FBB9CBD7D2195319CD2161582294CA"
+    },
+    {
+      "relative_path": "SheeshhPropHuntYT\\Content\\Paks\\global.utoc",
+      "size_bytes": 746,
+      "size_mb": 0.0,
+      "sha256": "EFE783B0BB3BE6E02511C8013D8DA77F8C57C406D5E1537B16E9934223E1FF13"
+    },
+    {
+      "relative_path": "SheeshhPropHuntYT\\Content\\Paks\\SheeshhPropHuntYT-Windows.pak",
+      "size_bytes": 11239523,
+      "size_mb": 10.72,
+      "sha256": "831BE699CDB5B00162B05E7EF7C8D5B735A1C5CF3DC899F3E2393282EBCABB76"
+    },
+    {
+      "relative_path": "SheeshhPropHuntYT\\Content\\Paks\\SheeshhPropHuntYT-Windows.ucas",
+      "size_bytes": 842411136,
+      "size_mb": 803.39,
+      "sha256": "SKIPPED_LARGE_FILE"
+    },
+    {
+      "relative_path": "SheeshhPropHuntYT\\Content\\Paks\\SheeshhPropHuntYT-Windows.utoc",
+      "size_bytes": 639794,
+      "size_mb": 0.61,
+      "sha256": "BD5567D681E3C6310B7AD73E857DDC6506F35D492019BE018C1E1E3949B44AB0"
+    }
+  ]
+}

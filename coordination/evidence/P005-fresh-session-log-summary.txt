@@ -1,0 +1,9 @@
+=== Unreal Editor 5.7 Fresh Session Log Analysis ===
+Timestamp: 2026-10-06 18:04:47 +05:30
+Process ID: 18776
+
+--- Startup LoadErrors Filter ---
+[2026.10.06-12.22.59:180][  0]LoadErrors: Warning: While trying to load package /Game/Core/sound/SC_BackgroundMusic, a dependent package /Game/Core/sound/background-music-for-video-453282 was not available. Additional explanatory information follows:
+
+--- Missing Object Warnings Filter ---
+[2026.10.06-12.22.54:871][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Core/sound/background-music-for-video-453282.background-music-for-video-453282'

@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-10-06T19:33:00+05:30",
+  "task_id": "P006",
+  "compilation_results": [
+    {
+      "asset_path": "/Game/Core/Map/MenuGameinstance",
+      "status": "UpToDate",
+      "success": true,
+      "errors": [],
+      "warnings": [],
+      "error_count": 0,
+      "warning_count": 0
+    },
+    {
+      "asset_path": "/Game/Core/Widgets/WBP_Menu",
+      "status": "UpToDate",
+      "success": true,
+      "errors": [],
+      "warnings": [],
+      "error_count": 0,
+      "warning_count": 0
+    },
+    {
+      "asset_path": "/Game/Core/Widgets/MainMenu/UI/WBP_MainMenu",
+      "status": "UpToDate",
+      "success": true,
+      "errors": [],
+      "warnings": [],
+      "error_count": 0,
+      "warning_count": 0
+    },
+    {
+      "asset_path": "/Game/Core/BluePrints/BP_propChar",
+      "status": "UpToDate",
+      "success": true,
+      "errors": [],
+      "warnings": [],
+      "error_count": 0,
+      "warning_count": 0
+    },
+    {
+      "asset_path": "/Game/Core/BluePrints/GM_ProphuntGameMode",
+      "status": "UpToDate",
+      "success": true,
+      "errors": [],
+      "warnings": [],
+      "error_count": 0,
+      "warning_count": 0
+    }
+  ]
+}

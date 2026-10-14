@@ -1,0 +1,7 @@
+Start: 2026-10-06T17:31:27.402239+00:00
+End: 2026-10-06T17:43:54.588138+00:00
+DurationSeconds: 747.19
+NativeExitCode: 0
+Command: G:\Epic Games\UE_5.7\Engine\Build\BatchFiles\RunUAT.bat BuildCookRun -project=G:\Unreal Projects\SheeshhPropHuntYT\SheeshhPropHuntYT.uproject -noP4 -platform=Win64 -clientconfig=Shipping -cook -build -stage -pak -package -archive -archivedirectory=G:\Unreal Projects\SheeshhPropHuntYT\Builds\P009-20261006_225800 -map=Boot_Lvl+Map1 -unversionedcookedcontent -compressed -prereqs -nodebuginfo -targetplatform=Win64 -utf8output -compile
+ArchiveDirectory: G:\Unreal Projects\SheeshhPropHuntYT\Builds\P009-20261006_225800
+LogPath: G:\Unreal Projects\SheeshhPropHuntYT\coordination\evidence\P009-uat-build.log

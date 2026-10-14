@@ -1,0 +1,50 @@
+{
+  "asset_path": "/Game/Core/Map/MenuGameinstance",
+  "graph_name": "EventGraph",
+  "target_node": "K2Node_CallFunction_3",
+  "node_title": "Open Level (by Object Reference)",
+  "function": "GameplayStatics::OpenLevelBySoftObjectPtr",
+  "diff": {
+    "pin_Level": {
+      "direction": "input",
+      "type": "softobject:World",
+      "before": "/Game/resources/CyberpunkIndustries/Maps/Map3.Map3",
+      "after": "/Game/resources/Stylized_Egypt/Maps/Map1.Map1",
+      "status": "CHANGED"
+    },
+    "pin_Options": {
+      "direction": "input",
+      "type": "string",
+      "before": "?listen",
+      "after": "?listen",
+      "status": "PRESERVED"
+    },
+    "pin_bAbsolute": {
+      "direction": "input",
+      "type": "bool",
+      "before": "true",
+      "after": "true",
+      "status": "PRESERVED"
+    },
+    "pin_execute": {
+      "direction": "input",
+      "type": "exec",
+      "connected_to": [
+        "K2Node_AsyncAction_4.OnSuccess"
+      ],
+      "status": "PRESERVED"
+    },
+    "pin_then": {
+      "direction": "output",
+      "type": "exec",
+      "connected_to": [],
+      "status": "PRESERVED"
+    }
+  },
+  "error_return_flow": {
+    "target_node": "K2Node_CallFunction_6",
+    "pin_Level": "/Game/Core/Map/Boot_Lvl.Boot_Lvl",
+    "pin_bAbsolute": "true",
+    "status": "PRESERVED"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "timestamp": "2026-10-06T18:28:35+05:30",
+  "inspection_scope": "Read-only inspection of host-map routing and menu selection across Content/Core",
+  "affected_assets": [
+    {
+      "asset_path": "/Game/Core/Map/MenuGameinstance",
+      "asset_class": "Blueprint",
+      "parent_class": "AdvancedFriendsGameInstance",
+      "disk_path": "Content/Core/Map/MenuGameinstance.uasset",
+      "findings": [
+        {
+          "graph": "EventGraph",
+          "node_id": "K2Node_CallFunction_3",
+          "node_title": "Open Level (by Object Reference)",
+          "function": "GameplayStatics::OpenLevelBySoftObjectPtr",
+          "affected_pin": "Level",
+          "pin_type": "softobject:World",
+          "current_value": "/Game/resources/CyberpunkIndustries/Maps/Map3.Map3",
+          "target_status": "DELETED (Map3 was deleted per user request)",
+          "call_context": "Invoked on 'OnSuccess' of CreateAdvancedSession in MenuInstanceNewSession event",
+          "proposed_p006_action": "Set pin default to '/Game/resources/Stylized_Egypt/Maps/Map1.Map1'"
+        },
+        {
+          "graph": "EventGraph",
+          "node_id": "K2Node_CallFunction_6",
+          "node_title": "Open Level (by Object Reference)",
+          "function": "GameplayStatics::OpenLevelBySoftObjectPtr",
+          "affected_pin": "Level",
+          "pin_type": "softobject:World",
+          "current_value": "/Game/Core/Map/Boot_Lvl.Boot_Lvl",
+          "target_status": "VALID (Boot_Lvl exists)",
+          "call_context": "Invoked on DestroySession completion after NetworkError or TravelError",
+          "proposed_p006_action": "None (Preserve)"
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Core/Widgets/WBP_Menu",
+      "asset_class": "WidgetBlueprint",
+      "parent_class": "UserWidget",
+      "disk_path": "Content/Core/Widgets/WBP_Menu.uasset",
+      "findings": [
+        {
+          "widget_name": "MapSelection",
+          "widget_class": "ComboBoxString",
+          "property": "DefaultOptions",
+          "current_value": ["Map1", "Map2"],
+          "issue": "Contains 'Map2' which has been removed from the project",
+          "selected_option": "Map1",
+          "runtime_usage": "OnSelectionChanged sets variable 'mapSel'. A local host button executes console command 'open ' + mapSel + '?listen'",
+          "proposed_p006_action": "Update DefaultOptions to [\"Map1\"] only"
+        },
+        {
+          "graph": "EventGraph",
+          "node_id": "K2Node_CallFunction_3",
+          "node_title": "Execute Console Command",
+          "function": "ExecuteConsoleCommand",
+          "command_pin_default": "open Map1?listen",
+          "execution_connection": "DISCONNECTED (Legacy/debug node)",
+          "proposed_p006_action": "None (Preserve as disconnected)"
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Core/Widgets/MainMenu/UI/WBP_MainMenu",
+      "asset_class": "WidgetBlueprint",
+      "parent_class": "UserWidget",
+      "disk_path": "Content/Core/Widgets/MainMenu/UI/WBP_MainMenu.uasset",
+      "findings": [
+        {
+          "event": "On Clicked (Map1)",
+          "node_id": "K2Node_Message_0 / K2Node_CallFunction_3",
+          "behavior": "Calls Execute Server Travel ('Map1') and executes 'servertravel Map1'",
+          "target_status": "VALID"
+        },
+        {
+          "event": "On Clicked (Map2)",
+          "node_id": "K2Node_CallFunction_1",
+          "behavior": "Executes 'servertravel Map2'",
+          "target_status": "TARGET REMOVED",
+          "proposed_p006_action": "Disable button or route to notification that Map2 is unavailable"
+        },
+        {
+          "event": "On Clicked (Map3)",
+          "node_id": "K2Node_CallFunction_14",
+          "behavior": "Executes 'servertravel Map3'",
+          "target_status": "TARGET REMOVED",
+          "proposed_p006_action": "Disable button or route to notification that Map3 is unavailable"
+        }
+      ]
+    }
+  ],
+  "p006_proposal_summary": {
+    "title": "Task P006 - Re-route Host Game and Menu Map Selection to Map1",
+    "primary_change": "Update MenuGameinstance K2Node_CallFunction_3 pin 'Level' from '/Game/resources/CyberpunkIndustries/Maps/Map3.Map3' to '/Game/resources/Stylized_Egypt/Maps/Map1.Map1'",
+    "secondary_change": "Update WBP_Menu MapSelection ComboBoxString DefaultOptions from ['Map1', 'Map2'] to ['Map1']",
+    "tertiary_change": "Handle WBP_MainMenu Map2/Map3 button interactions safely without trying to server-travel to non-existent levels",
+    "binary_mutation_scope": "Confined to 3 Blueprints: MenuGameinstance, WBP_Menu, and optionally WBP_MainMenu"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "verification": {
+    "sum_check": "1 + 9 + 5 + 896 + 3 + 1 + 107 + 380 = 1402",
+    "total": 1402,
+    "p002_baseline_inputs": 911,
+    "p004_added_content_assets": 491
+  },
+  "categories": {
+    "plugins_root": {
+      "directory": "Plugins/",
+      "count": 896,
+      "description": "Non-generated plugin sources, headers, descriptors, configs in Monolith, AdvancedSessions, etc."
+    },
+    "source_root": {
+      "directory": "Source/",
+      "count": 9,
+      "description": "Target.cs files, Build.cs, C++ headers and runtime module sources"
+    },
+    "content_root": {
+      "breakdown": {
+        "core_assets": {
+          "count": 3,
+          "files": [
+            "Content/Core/BluePrints/BP_propChar.uasset",
+            "Content/Core/sound/SC_BackgroundMusic.uasset",
+            "Content/Core/Map/Boot_Lvl.umap"
+          ]
+        },
+        "nongitlfs_cyberpunk": {
+          "description": "Map3.umap and all 106 .uasset files in NonGitLFS/CyberpunkIndustries/Meshes/",
+          "count": 107
+        },
+        "nongitlfs_downtown": {
+          "description": "Map2.umap and all 379 .uasset files in NonGitLFS/Downtown_West/Assets/props/ (recursive)",
+          "count": 380
+        },
+        "egypt_map": {
+          "count": 1,
+          "files": [
+            "Content/resources/Stylized_Egypt/Maps/Map1.umap"
+          ]
+        }
+      },
+      "directory": "Content/",
+      "total_count": 491
+    },
+    "uproject_file": {
+      "count": 1,
+      "path": "SheeshhPropHuntYT.uproject"
+    },
+    "config_root": {
+      "directory": "Config/",
+      "count": 5,
+      "description": "Project configuration files (DefaultEngine.ini, DefaultGame.ini, etc.)"
+    }
+  },
+  "total_manifest_entries": 1402,
+  "summary": "Reconciliation of the 1,402 SHA256 entries in P004/P004-R1 input manifest by root directory"
+}

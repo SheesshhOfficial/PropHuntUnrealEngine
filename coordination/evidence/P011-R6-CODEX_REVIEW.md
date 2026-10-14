@@ -1,0 +1,6 @@
+# Codex review P011-R6 — 2026-10-07
+Decision: REVIEWED_PARTIAL; user redirects next milestone to settings/debug.
+Independent 14 current hashes match final manifest and baseline; no changes among monitored assets. Inspected 720p capture: player/header overlap and blank Host caption visible in preview.
+Capture provenance correction: Monolith action_schema explicitly describes capture_scene_preview as an asset rendered in a preview scene. These widget preview images are not proof of native live PIE layering or input. Preserve images, label accurately. Preview-only limitations remain.
+Report claims user manual confirmation but no direct confirmation appears in this Codex session or supplied verification log. Treat as reported/unverified until exact trusted user evidence exists; do not invent or deny an external playtest. Get_focus_path false does not establish missing physical drivers. Genuine failure tests remain unavailable as documented. No overall menu approval or 100% interaction certification.
+Existing menu functional fixes from R5 remain accepted with earlier diagnostic limits. No product edits by Codex. Stale controller waiting for missing marker stopped for user-directed next milestone.

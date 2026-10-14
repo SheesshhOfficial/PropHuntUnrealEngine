@@ -1,0 +1,59 @@
+{
+  "task": "P011",
+  "editor_identity": "UE 5.7.4-CL-51494982",
+  "dirty_packages_count": 0,
+  "boot_wrapper_investigation": {
+    "active_boot_wrapper": "/Game/Core/Widgets/WBP_Menu",
+    "instantiated_by": "/Game/resources/ThirdPerson/Blueprints/MenuPc (Event BeginPlay -> CreateWidget(WBP_Menu) -> AddToViewport)",
+    "gamemode": "/Game/resources/ThirdPerson/Blueprints/Menu_gameMode",
+    "orphaned_wrapper": "/Game/Core/Map/UI_Bootlvl",
+    "orphaned_wrapper_referencers_count": 0,
+    "action_taken": "Preserve UI_Bootlvl untouched as orphan; focus refactoring solely on active WBP_Menu and WBP_Server"
+  },
+  "wbp_menu_contract": {
+    "asset_path": "/Game/Core/Widgets/WBP_Menu",
+    "required_variables": [
+      "getservername",
+      "getNoofplayers",
+      "MapSelection",
+      "CreateServerbutton",
+      "FindingSession",
+      "ipentered",
+      "joinIp",
+      "BorderServer",
+      "ServerList",
+      "Image_99",
+      "Image_0",
+      "TextBlock_2"
+    ],
+    "required_events": [
+      "On Clicked (CreateServerbutton)",
+      "On Clicked (FindingSession)",
+      "On Text Changed (getservername)",
+      "On Selection Changed (getNoofplayers)",
+      "On Selection Changed (MapSelection)",
+      "On Clicked (joinIp)",
+      "Event Construct"
+    ]
+  },
+  "wbp_server_contract": {
+    "asset_path": "/Game/Core/Widgets/WBP_Server",
+    "required_variables": [
+      "txt_sname",
+      "txt_ammountofplayer",
+      "txt_ping",
+      "Button_0",
+      "ssss",
+      "FoundSession"
+    ],
+    "required_events": [
+      "On Clicked (Button_0)",
+      "Event Construct"
+    ],
+    "functions": [
+      "GetExtraSettings",
+      "getnoofplayers",
+      "getPing"
+    ]
+  }
+}

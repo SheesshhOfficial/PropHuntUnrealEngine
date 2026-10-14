@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-10-06T18:03:45+05:30",
+  "maps": {
+    "Map1": {
+      "package_path": "/Game/resources/Stylized_Egypt/Maps/Map1",
+      "disk_path": "Content/resources/Stylized_Egypt/Maps/Map1.umap",
+      "status": "ACTIVE",
+      "in_cook_list": true,
+      "load_result": "SUCCESS",
+      "map_check_errors": 0,
+      "map_check_warnings": 0,
+      "diagnostics": "Map check complete: 0 Error(s), 0 Warning(s)"
+    },
+    "Map2": {
+      "package_path": "/Game/resources/Downtown_West/Maps/Map2",
+      "status": "REMOVED_PER_USER_INSTRUCTION",
+      "in_cook_list": false,
+      "pre_removal_load_result": "SUCCESS",
+      "pre_removal_map_check_errors": 0,
+      "pre_removal_map_check_warnings": 6010,
+      "pre_removal_diagnostics": "Loaded cleanly before deletion; 0 errors, 6,010 asset-pack warnings (unbuilt lighting, empty static mesh actors). Deleted via unreal.EditorAssetLibrary.delete_directory per user request to be re-added later. Full verified backup preserved in coordination/backups/P005-20261006-174241/."
+    },
+    "Map3": {
+      "package_path": "/Game/resources/CyberpunkIndustries/Maps/Map3",
+      "status": "REMOVED_PER_USER_INSTRUCTION",
+      "in_cook_list": false,
+      "pre_removal_load_result": "SUCCESS",
+      "pre_removal_map_check_errors": 0,
+      "pre_removal_map_check_warnings": 2010,
+      "pre_removal_diagnostics": "Loaded cleanly before deletion; 0 errors, 2,010 asset-pack warnings. Deleted via unreal.EditorAssetLibrary.delete_directory per user request to be re-added later. Full verified backup preserved in coordination/backups/P005-20261006-174241/."
+    },
+    "Boot_Lvl": {
+      "package_path": "/Game/Core/Map/Boot_Lvl",
+      "disk_path": "Content/Core/Map/Boot_Lvl.umap",
+      "status": "ACTIVE",
+      "in_cook_list": true,
+      "load_result": "SUCCESS",
+      "diagnostics": "Default boot level loaded cleanly; active level in editor."
+    }
+  }
+}

@@ -1,0 +1,5 @@
+COMMAND: & "G:\Epic Games\UE_5.7\Engine\Build\BatchFiles\Build.bat" SheeshhPropHuntYTEditor Win64 Development "-Project=G:\Unreal Projects\SheeshhPropHuntYT\SheeshhPropHuntYT.uproject" -WaitMutex
+START_TIME: 2026-10-06T15:21:00.2780177+05:30
+END_TIME: 2026-10-06T15:21:10.9561485+05:30
+TIMEZONE: (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi
+EXIT_CODE: 0

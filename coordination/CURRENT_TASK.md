@@ -1,0 +1,27 @@
+# Task P015-R2 - Repair and finish actual Figma visual workflow
+
+Status: READY
+Owner: Antigravity
+Reviewer: Codex
+
+## Goal
+Finish the existing task-owned Figma workflow, not another draft or manual import package. Read AGENTS.md, PROJECT.md, coordination/P015-R1-CODEX_REVIEW.md, coordination/documentation/FIGMA_WORKFLOW_BRIEF.md and SCREENSHOT_MANIFEST.csv. Preserve the user's existing design content and existing local drafts. Use currently connected Figma plugin bridge without changing MCP/plugin configuration or source.
+
+## Fix the blank canvas first
+Inspect root 3:7 and its task-owned nodes using supported bridge readback: actual parent IDs, absolute/relative bounds, visibility, clipping, fills and layer order. Existing overview_export.png is blank; do not presume that root export proves success. Determine whether task-owned text/cards are outside root bounds, siblings instead of children, obscured or clipped. Repair only task-owned nodes; reparent with coordinates preserved where needed. If root structure is valid but export fails, supply an actual viewport screenshot/alternative supported section export and state the export defect. Ensure all content appears together in a readable overall view before expanding it. Never modify unrelated canvas content.
+
+## Embed photos that already exist
+Current Settings audio/video, latest Debug preview, historical menu/browser/pause images are AVAILABLE, not missing shots. Embed actual image bytes in native image fills and label provenance. The prior large-base64 timeout is a failed transport attempt, not permission to omit photos. Inspect supported image operations and use bounded resized copies, binary upload or other supported smaller-payload route; preserve originals and aspect ratio. For example create documentation/figma_review/upload_images/ downscaled PNG/JPEG copies appropriate to display size, with filename/provenance mapping, if that resolves payload size. Do not change bridge sources/config or invent unsupported endpoints. Record exact error if still blocked; complete independent canvas work and report PARTIAL, not COMPLETE. No whole-design manual-paste instruction.
+
+## Make the connected workspace requested by the user
+One continuous title-to-outcome visual journey, not a slide deck. Designed title and description -> annotated main menu -> real Host/Find/Join routes -> match entry -> parallel Hunter/Prop lanes. Add native editable connectors/arrows with direction and labels. Gameplay has adjacent Pause branch leading to Resume/Leave and individual Settings categories; Debug remains a distinct developer branch. Describe unknown navigation rather than invent it.
+Place numbered arrows precisely on visible menu buttons and settings controls, with explanations BESIDE screenshots. A numbered text list alone is not an annotation. Include Hunter HUD/search/aim/fire/hit/damage and outcomes, Prop HUD/hide/transform BEFORE-AFTER/damage/survival and outcomes. Only genuinely unavailable photos get image-sized dashed placeholders with specific alt descriptions and separate removable instruction overlays. Do not invent ammo/health/cooldown/control facts.
+Verify actual Settings labels and include every actual category separately, including Appearance/Costume even if unfinished (label status). Audio/video require actual current photos. Clarify sensitivity location from actual screen. Show Apply/Discard feedback and separate Debug telemetry/host actions, preview label, physical-key acceptance gap. Dynamic hunter limit is max(1, players-1), not unconstrained 1..N-1 for a single player.
+
+## Evidence and owner maintenance
+Update FIGMA_WORKFLOW_CONTENT.md and FIGMA_WORKFLOW_INDEX.md to match actual final canvas. Replace placeholder CSV with actual node IDs, parent/section, exact width/height, shot description, replacement instruction, status and matched-pair ID. Ensure each CSV row maps to an existing selectable image rectangle. Document actual file/page/root links plus image nodes and connector IDs. Remove personal account/email/token details from documentation; document identity only by necessary file/page names/IDs.
+Export FULL visual regions, not just text nodes: overview, annotated main menu, both-role gameplay region, Prop BEFORE/AFTER pair, Settings categories and Debug. Open/inspect the exports and correct blank output, overlaps, clipping, missing arrows and illegible text. At least one complete section must prove photo + arrow + beside-text composition. Evidence directory documentation/figma_review/P015-R2/; preserve previous exports for review provenance. Report native text/image/vector/group readback, actual image count, connector count, mapped placeholder count and missing sections honestly.
+
+## Scope / failure / completion
+Allowed changes: task-owned Figma nodes and documentation files, IMPLEMENTATION_REPORT.md. No Unreal edits, existing user design edits, bridge/plugin/config modifications, installation, commits/pushes, sharing/invites, history/task changes or background loops. Previous out-of-scope bridge edits must be disclosed; no unauthorized rollback.
+Continue independent canvas/content corrections after non-blocking image/export failures; record action/error/attempts/impact/next step. COMPLETE requires the actual visible connected canvas, available photos embedded, measured annotations, full category coverage and validated exports. Otherwise PARTIAL/BLOCKED with concrete gaps. Use REPORT_TEMPLATE.md and stop for Codex review.

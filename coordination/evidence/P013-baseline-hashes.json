@@ -1,0 +1,72 @@
+[
+  {
+    "RelativePath": "Content\\Core\\Widgets\\MainMenu\\UI\\WBP_MainMenu.uasset",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Content\\Core\\Widgets\\MainMenu\\UI\\WBP_MainMenu.uasset",
+    "Algorithm": "SHA256",
+    "Hash": "7BDB7BDED5238B5725AD16541BDD55B31B495E243876EA3E8E1D6F80CAC3551B",
+    "Bytes": 888924
+  },
+  {
+    "RelativePath": "Content\\Core\\Widgets\\MainMenu\\UI\\WBP_SettingsOptionChild.uasset",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Content\\Core\\Widgets\\MainMenu\\UI\\WBP_SettingsOptionChild.uasset",
+    "Algorithm": "SHA256",
+    "Hash": "BA301CDEE77DFD9DECC0FD12530F4D63E062F0831DADA8E43AC50F7C296A3FC3",
+    "Bytes": 138970
+  },
+  {
+    "RelativePath": "Content\\Core\\Widgets\\WBP_DeveloperDebugPanel.uasset",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Content\\Core\\Widgets\\WBP_DeveloperDebugPanel.uasset",
+    "Algorithm": "SHA256",
+    "Hash": "FA1741A9FF617D7123821BE993300B29AF603DFCED38A76713BB5F00EC84A63A",
+    "Bytes": 107043
+  },
+  {
+    "RelativePath": "Content\\Core\\Widgets\\WBP_Menu.uasset",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Content\\Core\\Widgets\\WBP_Menu.uasset",
+    "Algorithm": "SHA256",
+    "Hash": "D70582C9A2A1CB5F755A59AB33C189BDCF58E78F93CD788CE58DA2DD678F5CB3",
+    "Bytes": 405220
+  },
+  {
+    "RelativePath": "Content\\resources\\ThirdPerson\\Blueprints\\MenuPc.uasset",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Content\\resources\\ThirdPerson\\Blueprints\\MenuPc.uasset",
+    "Algorithm": "SHA256",
+    "Hash": "E641507AD62E21FD5FAFB8939E0CF623DD962C8324535CB2DE01086069B58348",
+    "Bytes": 31246
+  },
+  {
+    "RelativePath": "Content\\Core\\BluePrints\\BP_ThirdPersonPlayerController.uasset",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Content\\Core\\BluePrints\\BP_ThirdPersonPlayerController.uasset",
+    "Algorithm": "SHA256",
+    "Hash": "471D150CB67FEBFFA61C553A53CFDE1B43C6B8062E9E472C1C982B11D68AB551",
+    "Bytes": 389336
+  },
+  {
+    "RelativePath": "Content\\Core\\Widgets\\MainMenu\\Data\\BP_SettingsSaveGame.uasset",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Content\\Core\\Widgets\\MainMenu\\Data\\BP_SettingsSaveGame.uasset",
+    "Algorithm": "SHA256",
+    "Hash": "43E5B1B317746A759C15E7F211C3C5C3AB92C9BF68BBD03AA982CCF3D759368E",
+    "Bytes": 12077
+  },
+  {
+    "RelativePath": "Config\\DefaultInput.ini",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Config\\DefaultInput.ini",
+    "Algorithm": "SHA256",
+    "Hash": "13CBBE3198B6FD785D945092361FF04C903D95598CE708E3A2CC90541A838D6B",
+    "Bytes": 10171
+  },
+  {
+    "RelativePath": "Config\\DefaultGame.ini",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Config\\DefaultGame.ini",
+    "Algorithm": "SHA256",
+    "Hash": "C177E7CBCE939A3EFF7ABFD25FF10D505C92195328FA1AC0589F90E1D6C90DF6",
+    "Bytes": 3814
+  },
+  {
+    "RelativePath": "Config\\DefaultEngine.ini",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Config\\DefaultEngine.ini",
+    "Algorithm": "SHA256",
+    "Hash": "66E3B7440F448B3C7C7EA0D523021A78F8BBA8635CEBFF3412071CEF540FF823",
+    "Bytes": 3769
+  }
+]

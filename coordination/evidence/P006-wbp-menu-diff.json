@@ -1,0 +1,35 @@
+{
+  "asset_path": "/Game/Core/Widgets/WBP_Menu",
+  "widget_name": "MapSelection",
+  "widget_class": "ComboBoxString",
+  "diff": {
+    "DefaultOptions": {
+      "type": "TArray<FString>",
+      "before": [
+        "Map1",
+        "Map2"
+      ],
+      "after": [
+        "Map1"
+      ],
+      "status": "CHANGED"
+    },
+    "SelectedOption": {
+      "type": "FString",
+      "before": "Map1",
+      "after": "Map1",
+      "status": "PRESERVED"
+    }
+  },
+  "variable_state": {
+    "mapSel": {
+      "type": "string",
+      "default_value": "Map1",
+      "status": "PRESERVED (Initializes to Map1)"
+    }
+  },
+  "runtime_interaction": {
+    "on_selection_changed": "Updates mapSel to SelectedItem",
+    "on_host_command": "Appends 'open ' + mapSel + '?listen' -> resolves exclusively to Map1"
+  }
+}

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <style>
+      .bg { fill: #0b0f19; }
+      .card { fill: #101827; stroke: #243248; stroke-width: 2; rx: 12; }
+      .title { fill: #ffffff; font-family: sans-serif; font-weight: 800; font-size: 36px; }
+      .subtitle { fill: #30d5e8; font-family: sans-serif; font-weight: 600; font-size: 18px; }
+      .text-head { fill: #ffffff; font-family: sans-serif; font-weight: 700; font-size: 20px; }
+      .text-body { fill: #afc0d4; font-family: sans-serif; font-size: 15px; }
+      .slot { fill: #1e293b; stroke: #30d5e8; stroke-width: 1.5; stroke-dasharray: 6 6; rx: 8; }
+      .slot-text { fill: #30d5e8; font-family: sans-serif; font-weight: 700; font-size: 16px; text-anchor: middle; }
+      .slot-sub { fill: #94a3b8; font-family: sans-serif; font-size: 12px; text-anchor: middle; }
+      .arrow { stroke: #30d5e8; stroke-width: 3; fill: none; marker-end: url(#arrow-p); }
+    </style>
+    <marker id="arrow-p" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#30d5e8" />
+    </marker>
+  </defs>
+  <rect width="1920" height="1080" class="bg" />
+
+  <!-- Header -->
+  <rect x="80" y="40" width="1760" height="80" class="card" />
+  <rect x="110" y="55" width="160" height="28" rx="14" fill="#30d5e8" />
+  <text x="190" y="74" font-family="sans-serif" font-weight="bold" font-size="13" fill="#0b0f19" text-anchor="middle">PROP JOURNEY</text>
+  <text x="290" y="80" class="title">03.01 - 03.06 Prop Transformation &amp; Survival Lane</text>
+  <text x="290" y="105" class="subtitle">Disguise Mechanics, Matched Before/After Transformation, Rotation Lock, and Audio Taunts</text>
+
+  <!-- Left: Matched Transformation Pair -->
+  <rect x="80" y="150" width="1120" height="520" class="card" />
+  <text x="110" y="190" class="text-head">03.02 Before &amp; After Transformation Sequence (Matched Pair)</text>
+  <text x="110" y="215" class="text-body">• Pawn: BP_propChar | Disguise Actor: BP_SPawnedProp | Catalog: 55 resolved static meshes</text>
+  <text x="110" y="235" class="text-body">• Trigger: Aim at valid mesh and press IA_ChangeProp. Replaces character mesh with object.</text>
+
+  <!-- Matched Slot 1: Before -->
+  <rect x="110" y="260" width="480" height="370" class="slot" />
+  <text x="350" y="300" class="slot-text">MATCHED BEFORE: HUMANOID PAWN</text>
+  <text x="350" y="325" class="slot-sub">IMG-03-TRANSFORM-BEFORE (800x450)</text>
+  <circle cx="350" cy="420" r="28" fill="#334155" />
+  <text x="350" y="428" font-family="sans-serif" font-size="22" fill="#30d5e8" text-anchor="middle">📷</text>
+  <text x="350" y="490" class="slot-sub">Prop player in default humanoid pawn beside Egyptian urn</text>
+  <text x="350" y="515" class="slot-sub">CRITICAL: Lock camera angle; do not move for AFTER shot</text>
+
+  <!-- Transform Arrow -->
+  <path d="M 605 445 L 675 445" class="arrow" />
+  <text x="640" y="430" font-family="sans-serif" font-weight="bold" font-size="13" fill="#30d5e8" text-anchor="middle">TRANSFORM</text>
+
+  <!-- Matched Slot 2: After -->
+  <rect x="690" y="260" width="480" height="370" class="slot" />
+  <text x="930" y="300" class="slot-text">MATCHED AFTER: TRANSFORMED URN</text>
+  <text x="930" y="325" class="slot-sub">IMG-03-TRANSFORM-AFTER (800x450)</text>
+  <circle cx="930" cy="420" r="28" fill="#334155" />
+  <text x="930" y="428" font-family="sans-serif" font-size="22" fill="#30d5e8" text-anchor="middle">📷</text>
+  <text x="930" y="490" class="slot-sub">Prop player transformed into urn at identical camera position</text>
+  <text x="930" y="515" class="slot-sub">Pawn collision and mesh updated dynamically</text>
+
+  <!-- Right: Hiding & Rotation Lock -->
+  <rect x="1230" y="150" width="610" height="520" class="card" />
+  <text x="1260" y="190" class="text-head">03.03 Rotation Lock Mechanics</text>
+  <text x="1260" y="215" class="text-body">• Ability: IA_RotationLock (Space / Trigger)</text>
+  <text x="1260" y="235" class="text-body">• Locks mesh in world space to blend with walls</text>
+  <text x="1260" y="255" class="text-body">• Camera freely orbits without rotating disguised mesh</text>
+
+  <rect x="1260" y="280" width="550" height="350" class="slot" />
+  <circle cx="1535" cy="440" r="28" fill="#334155" />
+  <text x="1535" y="448" font-family="sans-serif" font-size="22" fill="#30d5e8" text-anchor="middle">📷</text>
+  <text x="1535" y="500" class="slot-text">IMG-03-ROTATION-LOCK (960x540)</text>
+  <text x="1535" y="530" class="slot-sub">Disguised prop locked against corner wall while camera pans</text>
+
+  <!-- Bottom: Taunt, Damage, and Outcome Sequence -->
+  <rect x="80" y="700" width="1760" height="330" class="card" />
+  <text x="110" y="735" class="text-head">03.04 - 03.06 Audio Taunts, Damage Reactions, and Survival Outcome</text>
+
+  <!-- Taunt Slot -->
+  <rect x="110" y="760" width="520" height="240" class="slot" />
+  <text x="370" y="795" class="slot-text">03.04 AUDIO TAUNT CUES</text>
+  <text x="370" y="820" class="slot-sub">IMG-03-TAUNT-CONTEXT (960x540)</text>
+  <text x="370" y="870" class="slot-sub">• IA_Taunt: Spatial audio cue (meow, chuckle, robot)</text>
+  <text x="370" y="895" class="slot-sub">• Rewards survival score but alerts nearby seekers</text>
+
+  <!-- Damage Slot -->
+  <rect x="700" y="760" width="520" height="240" class="slot" />
+  <text x="960" y="795" class="slot-text">03.05 DAMAGE &amp; EXPLOSION</text>
+  <text x="960" y="820" class="slot-sub">IMG-03-PROP-DAMAGE (960x540)</text>
+  <text x="960" y="870" class="slot-sub">• Disguised prop taking hitscan shot damage</text>
+  <text x="960" y="895" class="slot-sub">• Triggers P_Explosion particle upon zero health</text>
+
+  <!-- Outcome Slot -->
+  <rect x="1290" y="760" width="520" height="240" class="slot" />
+  <text x="1550" y="795" class="slot-text">03.06 PROP VICTORY OUTCOME</text>
+  <text x="1550" y="820" class="slot-sub">IMG-03-PROP-VICTORY (960x540)</text>
+  <text x="1550" y="870" class="slot-sub">• Victory: Clock hits 00:00 with props alive [USER-TESTED]</text>
+  <text x="1550" y="895" class="slot-sub">• Returns players cleanly to Boot_Lvl</text>
+</svg>

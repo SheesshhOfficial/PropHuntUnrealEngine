@@ -1,0 +1,64 @@
+[
+  {
+    "disk_path": "Content\\Core\\Map\\Boot_Lvl.umap",
+    "asset_name": "Boot_Lvl",
+    "disk_exists": true,
+    "query": "/Game/Core/Map/Boot_Lvl",
+    "asset_class": "World",
+    "resolved_in_registry": true,
+    "is_redirector": false,
+    "editor_load_status": "Loaded as active editor world (MapCheck: 0 Errors, 0 Warnings; LogStreaming warning for missing /Game/Core/sound/background-music-for-video-453282)"
+  },
+  {
+    "disk_path": "Content\\resources\\Stylized_Egypt\\Maps\\Map1.umap",
+    "asset_name": "Map1",
+    "disk_exists": true,
+    "query": "/Game/resources/Stylized_Egypt/Maps/Map1",
+    "asset_class": "World",
+    "resolved_in_registry": true,
+    "is_redirector": false,
+    "editor_load_status": "Registry resolved; not loaded into editor (preserves active Boot_Lvl)"
+  },
+  {
+    "disk_path": "Content\\resources\\CyberpunkIndustries\\Maps\\Map3.umap",
+    "resolved_in_registry": false,
+    "actual_location": "/Game/resources/NonGitLFS/CyberpunkIndustries/Maps/Map3",
+    "query": "/Game/resources/CyberpunkIndustries/Maps/Map3",
+    "asset_name": null,
+    "is_redirector": false,
+    "asset_class": null,
+    "disk_exists": false,
+    "editor_load_status": "Not resolved; disk path absent"
+  },
+  {
+    "disk_path": "Content\\resources\\Downtown_West\\Maps\\Map2.umap",
+    "resolved_in_registry": false,
+    "actual_location": "/Game/resources/NonGitLFS/Downtown_West/Maps/Map2",
+    "query": "/Game/resources/Downtown_West/Maps/Map2",
+    "asset_name": null,
+    "is_redirector": false,
+    "asset_class": null,
+    "disk_exists": false,
+    "editor_load_status": "Not resolved; disk path absent"
+  },
+  {
+    "disk_path": "Content\\resources\\NonGitLFS\\CyberpunkIndustries\\Maps\\Map3.umap",
+    "asset_name": "Map3",
+    "disk_exists": true,
+    "query": "/Game/resources/NonGitLFS/CyberpunkIndustries/Maps/Map3",
+    "asset_class": "World",
+    "resolved_in_registry": true,
+    "is_redirector": false,
+    "editor_load_status": "Registry resolved at NonGitLFS path; not loaded into editor"
+  },
+  {
+    "disk_path": "Content\\resources\\NonGitLFS\\Downtown_West\\Maps\\Map2.umap",
+    "asset_name": "Map2",
+    "disk_exists": true,
+    "query": "/Game/resources/NonGitLFS/Downtown_West/Maps/Map2",
+    "asset_class": "World",
+    "resolved_in_registry": true,
+    "is_redirector": false,
+    "editor_load_status": "Registry resolved at NonGitLFS path; not loaded into editor"
+  }
+]

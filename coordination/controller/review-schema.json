@@ -1,0 +1,1 @@
+{"type":"object","properties":{"decision":{"type":"string","enum":["ready","stop"]},"task_id":{"type":"string"},"reason":{"type":"string"}},"required":["decision","task_id","reason"],"additionalProperties":false}

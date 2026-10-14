@@ -1,0 +1,9 @@
+﻿{
+    "max_cycles":  1,
+    "updated_at":  "2026-10-08T06:14:11.7267904+05:30",
+    "pid":  29808,
+    "detail":  "Antigravity completion timed out; no duplicate dispatch attempted.",
+    "phase":  "needs_attention",
+    "completed_cycles":  0,
+    "run_id":  "20261008-041406"
+}

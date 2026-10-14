@@ -1,0 +1,58 @@
+[
+  {
+    "Path": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Content\\Core\\Widgets\\MainMenu\\UI\\WBP_MainMenu.uasset",
+    "BaselineBackup": "G:\\Unreal Projects\\SheeshhPropHuntYT\\coordination\\backups\\Codex-UI-Takeover\\WBP_MainMenu.uasset",
+    "BaselineHash": "482CF51DE6427A8EBB9955F416CFE10DB96FF232200BC5C316A709DD2C8701E2",
+    "FinalHash": "1BD140EC708F7A828463A4B2F4716028C71E3DE77DA4BEC1BC83F0A57441FACB",
+    "RecordedAt": "2026-10-11T02:28:51.8013959+05:30"
+  },
+  {
+    "Path": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Content\\Core\\Widgets\\WBP_Menu.uasset",
+    "BaselineBackup": "G:\\Unreal Projects\\SheeshhPropHuntYT\\coordination\\backups\\Codex-UI-Takeover\\WBP_Menu.uasset",
+    "BaselineHash": "D70582C9A2A1CB5F755A59AB33C189BDCF58E78F93CD788CE58DA2DD678F5CB3",
+    "FinalHash": "0AE91218FF1E6BB3903CD83ED4D00B6D2DD70A4F669810F2E47E6313E9F1CC6F",
+    "RecordedAt": "2026-10-11T02:28:51.8204001+05:30"
+  },
+  {
+    "Path": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Content\\Core\\Widgets\\WBP_DeveloperDebugPanel.uasset",
+    "BaselineBackup": "G:\\Unreal Projects\\SheeshhPropHuntYT\\coordination\\backups\\Codex-UI-Takeover\\WBP_DeveloperDebugPanel.uasset",
+    "BaselineHash": "0994432BFD734A6F4AD63B46D05A6D27897D67435BD1807D8B7170D171E2F567",
+    "FinalHash": "C7FFDD7F65FAAAECFECDCC21CF9C95DDCC67D578AA8681DE0356BED7D92B7A94",
+    "RecordedAt": "2026-10-11T02:28:51.8376227+05:30"
+  },
+  {
+    "Path": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Content\\resources\\ThirdPerson\\Blueprints\\MenuPc.uasset",
+    "BaselineBackup": "G:\\Unreal Projects\\SheeshhPropHuntYT\\coordination\\backups\\Codex-UI-Takeover\\MenuPc.uasset",
+    "BaselineHash": "41C3666BD45B621061C7815EEA9086DB6E7C2229EC7295ADD3AADC2E2CA5164F",
+    "FinalHash": "826E8217706FD8452D8D3266F3532664C34F8F1CBF7E60D1BE2199FA0FE794BF",
+    "RecordedAt": "2026-10-11T02:28:51.8595928+05:30"
+  },
+  {
+    "Path": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Content\\Core\\BluePrints\\BP_ThirdPersonPlayerController.uasset",
+    "BaselineBackup": "G:\\Unreal Projects\\SheeshhPropHuntYT\\coordination\\backups\\Codex-UI-Takeover\\BP_ThirdPersonPlayerController.uasset",
+    "BaselineHash": "3EA770740A5C1206FAC574B4E2240D9578B521589025CA9F1019647AD2C2E7B9",
+    "FinalHash": "F615E58BBE8F847E93BFEF2FDDB2BDA25A39FAC2F62AACDE4BB45A3665DF03D9",
+    "RecordedAt": "2026-10-11T02:28:51.8731100+05:30"
+  },
+  {
+    "Path": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Content\\Core\\BluePrints\\GM_ProphuntGameMode.uasset",
+    "BaselineBackup": "G:\\Unreal Projects\\SheeshhPropHuntYT\\coordination\\backups\\Codex-UI-Takeover\\GM_ProphuntGameMode.uasset",
+    "BaselineHash": "C8058191DE1E80FEA1EE91EC159282799C470425B17F6A4226BC4B9CE7FA5E17",
+    "FinalHash": "8CE0E1A84254AF43ADCB80AEB41F5D55DDD0696CBE8C26EAFFA41CDFA04A8BBF",
+    "RecordedAt": "2026-10-11T02:28:51.8934831+05:30"
+  },
+  {
+    "Path": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Content\\Core\\BluePrints\\BP_ThirdPersonCharacter.uasset",
+    "BaselineBackup": "G:\\Unreal Projects\\SheeshhPropHuntYT\\coordination\\backups\\Codex-UI-Takeover\\BP_ThirdPersonCharacter.uasset",
+    "BaselineHash": "8974ECD57BA0E9DF7A0B5CCB8003C1DE7E75BBD867228DBAFFDAFBCD2206B6A6",
+    "FinalHash": "BF9349585E0CC54539CE91FAF6CEC2C6F9A80E60FB2AC1B72AE2D9059FD9328D",
+    "RecordedAt": "2026-10-11T02:28:51.9179739+05:30"
+  },
+  {
+    "Path": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Content\\Core\\BluePrints\\BP_propChar.uasset",
+    "BaselineBackup": "G:\\Unreal Projects\\SheeshhPropHuntYT\\coordination\\backups\\Codex-UI-Takeover\\BP_propChar.uasset",
+    "BaselineHash": "EA4A8FB63409B2981457DD477B9955FE95ADC79D8B750EA68F02A79E791D115A",
+    "FinalHash": "2AE6F804BC9BDD70BA54467BE260DB0B87981933C8BBB7B9DB1BE2552EA89E70",
+    "RecordedAt": "2026-10-11T02:28:51.9419921+05:30"
+  }
+]

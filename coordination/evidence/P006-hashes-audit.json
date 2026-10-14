@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-10-06T19:32:45+05:30",
+  "task_id": "P006",
+  "backup_dir": "coordination/backups/P006-20261006-192457/",
+  "mutated_assets": [
+    {
+      "asset": "Content/Core/Map/MenuGameinstance.uasset",
+      "status": "MUTATED_AND_PERSISTED",
+      "before_sha256": "FA1BD8D1009415DD680C64CBF783CC673D14665AD2F16BF5C0AE6E277E395903",
+      "after_sha256": "30C8368E5BD1BBD4846D456DDA06CDB806A5A3718F6624AC639A914690ACEC6B",
+      "backup_sha256": "FA1BD8D1009415DD680C64CBF783CC673D14665AD2F16BF5C0AE6E277E395903",
+      "backup_matched": true,
+      "purpose": "Updated K2Node_CallFunction_3 Level pin from deleted Map3 to Map1"
+    },
+    {
+      "asset": "Content/Core/Widgets/WBP_Menu.uasset",
+      "status": "MUTATED_AND_PERSISTED",
+      "before_sha256": "27E5958831DD9A4ACFE52F1698E19044B851B7FE400CBBF1A6C424C93C16E2D4",
+      "after_sha256": "55C4EF47730216F28D560B36DD8C23F117AC3B7AE9B2171DC7AF1D34B38BE314",
+      "backup_sha256": "27E5958831DD9A4ACFE52F1698E19044B851B7FE400CBBF1A6C424C93C16E2D4",
+      "backup_matched": true,
+      "purpose": "Updated MapSelection DefaultOptions to [\"Map1\"], removing Map2"
+    },
+    {
+      "asset": "Content/Core/Widgets/MainMenu/UI/WBP_MainMenu.uasset",
+      "status": "MUTATED_AND_PERSISTED",
+      "before_sha256": "9BF08294B49D8A0DC6D8A18BFD73BA2ED00D36106288B3DA670547F8F6D30E43",
+      "after_sha256": "27FC4FEB30203DE6B009E616EDB68DBFA75B98975E84BB93B08CB7F4B2D92655",
+      "backup_sha256": "9BF08294B49D8A0DC6D8A18BFD73BA2ED00D36106288B3DA670547F8F6D30E43",
+      "backup_matched": true,
+      "purpose": "Disabled Map2 and Map3 buttons (bIsEnabled: False, IsFocusable: False)"
+    }
+  ],
+  "unmodified_external_references": [
+    {
+      "asset": "Content/Core/BluePrints/BP_propChar.uasset",
+      "status": "UNTOUCHED",
+      "sha256": "EA4A8FB63409B2981457DD477B9955FE95ADC79D8B750EA68F02A79E791D115A",
+      "matches_before": true
+    },
+    {
+      "asset": "Content/resources/Stylized_Egypt/Maps/Map1.umap",
+      "status": "UNTOUCHED",
+      "sha256": "E60529E62A879C7B96D6C6B28BD2EF6B85750F9DB27909FFD7D8F1EF3C581900",
+      "matches_before": true
+    },
+    {
+      "asset": "Content/Core/sound/SC_BackgroundMusic.uasset",
+      "status": "UNTOUCHED",
+      "sha256": "01B531384F84933476B6ED00A995C262B797D1FB06BCC6051CA944D7F4847F81",
+      "matches_before": true
+    },
+    {
+      "asset": "Config/DefaultGame.ini",
+      "status": "UNTOUCHED",
+      "sha256": "C177E7CBCE939A3EFF7ABFD25FF10D505C92195328FA1AC0589F90E1D6C90DF6",
+      "matches_before": true
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+[
+  {
+    "RelativePath": "Config\\DefaultInput.ini",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Config\\DefaultInput.ini",
+    "Algorithm": "SHA256",
+    "Hash": "C4CC1F4B594E8219068CF084914792139241D3648BF10F80ACE1BC2F30CB6CEF",
+    "Bytes": 10279
+  },
+  {
+    "RelativePath": "Config\\DefaultGame.ini",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Config\\DefaultGame.ini",
+    "Algorithm": "SHA256",
+    "Hash": "C177E7CBCE939A3EFF7ABFD25FF10D505C92195328FA1AC0589F90E1D6C90DF6",
+    "Bytes": 3814
+  },
+  {
+    "RelativePath": "Config\\DefaultEngine.ini",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Config\\DefaultEngine.ini",
+    "Algorithm": "SHA256",
+    "Hash": "66E3B7440F448B3C7C7EA0D523021A78F8BBA8635CEBFF3412071CEF540FF823",
+    "Bytes": 3769
+  },
+  {
+    "RelativePath": "Content\\Core\\Widgets\\MainMenu\\UI\\WBP_MainMenu.uasset",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Content\\Core\\Widgets\\MainMenu\\UI\\WBP_MainMenu.uasset",
+    "Algorithm": "SHA256",
+    "Hash": "B0C5E63FFC936BC1822D25B68214CAFE1A8517E4180BE3E59D75546BDD72A40A",
+    "Bytes": 847765
+  },
+  {
+    "RelativePath": "Content\\Core\\Widgets\\MainMenu\\UI\\WBP_SettingsOptionChild.uasset",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Content\\Core\\Widgets\\MainMenu\\UI\\WBP_SettingsOptionChild.uasset",
+    "Algorithm": "SHA256",
+    "Hash": "BA301CDEE77DFD9DECC0FD12530F4D63E062F0831DADA8E43AC50F7C296A3FC3",
+    "Bytes": 138970
+  },
+  {
+    "RelativePath": "Content\\Core\\Widgets\\WBP_DeveloperDebugPanel.uasset",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Content\\Core\\Widgets\\WBP_DeveloperDebugPanel.uasset",
+    "Algorithm": "SHA256",
+    "Hash": "AB429B8FFC576535BFDAB938BE8EC48268B30BDB3DAC7EF40F6D0258F52E3BC1",
+    "Bytes": 177437
+  },
+  {
+    "RelativePath": "Content\\Core\\Widgets\\WBP_Menu.uasset",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Content\\Core\\Widgets\\WBP_Menu.uasset",
+    "Algorithm": "SHA256",
+    "Hash": "D70582C9A2A1CB5F755A59AB33C189BDCF58E78F93CD788CE58DA2DD678F5CB3",
+    "Bytes": 405220
+  },
+  {
+    "RelativePath": "Content\\resources\\ThirdPerson\\Blueprints\\MenuPc.uasset",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Content\\resources\\ThirdPerson\\Blueprints\\MenuPc.uasset",
+    "Algorithm": "SHA256",
+    "Hash": "41C3666BD45B621061C7815EEA9086DB6E7C2229EC7295ADD3AADC2E2CA5164F",
+    "Bytes": 66097
+  },
+  {
+    "RelativePath": "Content\\Core\\BluePrints\\BP_ThirdPersonPlayerController.uasset",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Content\\Core\\BluePrints\\BP_ThirdPersonPlayerController.uasset",
+    "Algorithm": "SHA256",
+    "Hash": "D35F78CDEFC47CB527D8B4A2F0FFB05E5B9E8D0938B9B786E6D42897945D2B59",
+    "Bytes": 417684
+  },
+  {
+    "RelativePath": "Content\\Core\\Widgets\\MainMenu\\Data\\BP_SettingsSaveGame.uasset",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\Content\\Core\\Widgets\\MainMenu\\Data\\BP_SettingsSaveGame.uasset",
+    "Algorithm": "SHA256",
+    "Hash": "43E5B1B317746A759C15E7F211C3C5C3AB92C9BF68BBD03AA982CCF3D759368E",
+    "Bytes": 12077
+  },
+  {
+    "RelativePath": "coordination\\evidence\\P013-baseline-hashes.json",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\coordination\\evidence\\P013-baseline-hashes.json",
+    "Algorithm": "SHA256",
+    "Hash": "D22B2FFEBF27C80302462340260B82BEC17E3B54E26600EFD793A4014ECB114C",
+    "Bytes": 3262
+  },
+  {
+    "RelativePath": "coordination\\evidence\\P013-settings-before-720p.png",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\coordination\\evidence\\P013-settings-before-720p.png",
+    "Algorithm": "SHA256",
+    "Hash": "7FBDFDB758134A402C6D14642C50E844E232E186E1809FD9FD98AE2B86C25844",
+    "Bytes": 30026
+  },
+  {
+    "RelativePath": "coordination\\evidence\\P013-settings-before-1080p.png",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\coordination\\evidence\\P013-settings-before-1080p.png",
+    "Algorithm": "SHA256",
+    "Hash": "FBBA1555215A46029B533AC4720D744C795EEB5F5EC5A3F50AA671C483FF2C72",
+    "Bytes": 29220
+  },
+  {
+    "RelativePath": "coordination\\evidence\\P013-settings-before-ultrawide.png",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\coordination\\evidence\\P013-settings-before-ultrawide.png",
+    "Algorithm": "SHA256",
+    "Hash": "8A4E081A3E6CCF7323FE7BA70B856EE501DAA0EE933476B613CF945B4C68E83C",
+    "Bytes": 32347
+  },
+  {
+    "RelativePath": "coordination\\evidence\\P013-settings-after-720p.png",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\coordination\\evidence\\P013-settings-after-720p.png",
+    "Algorithm": "SHA256",
+    "Hash": "1482B62CBC45CA0D9202B8FB069056F5FC50611B8FA7DBFF46F5297BA4DE5855",
+    "Bytes": 56458
+  },
+  {
+    "RelativePath": "coordination\\evidence\\P013-settings-after-1080p.png",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\coordination\\evidence\\P013-settings-after-1080p.png",
+    "Algorithm": "SHA256",
+    "Hash": "A4B33AEDF5F9A4A535DA05AD8AF50A39AF3AF9115B8E464A37F1C1DC55D1824C",
+    "Bytes": 79019
+  },
+  {
+    "RelativePath": "coordination\\evidence\\P013-settings-after-ultrawide.png",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\coordination\\evidence\\P013-settings-after-ultrawide.png",
+    "Algorithm": "SHA256",
+    "Hash": "5135219183915295372D2F461EE77D54B22EE84C1DA2924BF41CF6EAF683C1C2",
+    "Bytes": 112860
+  },
+  {
+    "RelativePath": "coordination\\evidence\\P013-debug-before-720p.png",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\coordination\\evidence\\P013-debug-before-720p.png",
+    "Algorithm": "SHA256",
+    "Hash": "A610FCDC0698F3D4B943F2B381F55DD1C95D8B43353302CD86D8D61A4773C472",
+    "Bytes": 27569
+  },
+  {
+    "RelativePath": "coordination\\evidence\\P013-debug-before-1080p.png",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\coordination\\evidence\\P013-debug-before-1080p.png",
+    "Algorithm": "SHA256",
+    "Hash": "CF1006F093C7CC7D11BBDC61BF38289E8ABB249F2A0795E50ACE3531ABBB9D1F",
+    "Bytes": 25075
+  },
+  {
+    "RelativePath": "coordination\\evidence\\P013-debug-before-ultrawide.png",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\coordination\\evidence\\P013-debug-before-ultrawide.png",
+    "Algorithm": "SHA256",
+    "Hash": "3437EC7D9955EA67D92DF389FA04C1D0D0F04A44DF692DDFF286A596E554FC19",
+    "Bytes": 30853
+  },
+  {
+    "RelativePath": "coordination\\evidence\\P013-debug-after-720p.png",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\coordination\\evidence\\P013-debug-after-720p.png",
+    "Algorithm": "SHA256",
+    "Hash": "B64C112D3E9EF93D13F63FD3BB331B85F7B3F25402926C345C04E797A374F5CF",
+    "Bytes": 79019
+  },
+  {
+    "RelativePath": "coordination\\evidence\\P013-debug-after-1080p.png",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\coordination\\evidence\\P013-debug-after-1080p.png",
+    "Algorithm": "SHA256",
+    "Hash": "2A135F8E12F8E5B0D1EA9D9C8C7F8F10F7D509EC4E0DBD8C9C88E9C18850498B",
+    "Bytes": 112860
+  },
+  {
+    "RelativePath": "coordination\\evidence\\P013-debug-after-ultrawide.png",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\coordination\\evidence\\P013-debug-after-ultrawide.png",
+    "Algorithm": "SHA256",
+    "Hash": "2C1A7934082A2F3809B09FB15E4CBC7C6FD5C52FAB5AE6E96832F3F72F91DE9B",
+    "Bytes": 112860
+  },
+  {
+    "RelativePath": "coordination\\evidence\\P013-verification.md",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\coordination\\evidence\\P013-verification.md",
+    "Algorithm": "SHA256",
+    "Hash": "A53D848E9FE30853593221C00BDD9A5C402843FA23D92F0FEDF1713DE556B39B",
+    "Bytes": 8295
+  },
+  {
+    "RelativePath": "coordination\\IMPLEMENTATION_REPORT.md",
+    "AbsolutePath": "G:\\Unreal Projects\\SheeshhPropHuntYT\\coordination\\IMPLEMENTATION_REPORT.md",
+    "Algorithm": "SHA256",
+    "Hash": "0D37CB1D6FB3EBBA12C48BE2B33645B9997728BA618F7296E6F6171E241595D5",
+    "Bytes": 7293
+  }
+]

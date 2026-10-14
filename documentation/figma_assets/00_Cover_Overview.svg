@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <style>
+      .bg { fill: #0b0f19; }
+      .card { fill: #101827; stroke: #243248; stroke-width: 2; rx: 12; }
+      .badge-hunter { fill: #ffad59; font-family: sans-serif; font-weight: bold; font-size: 14px; }
+      .badge-prop { fill: #30d5e8; font-family: sans-serif; font-weight: bold; font-size: 14px; }
+      .title { fill: #ffffff; font-family: sans-serif; font-weight: 800; font-size: 54px; letter-spacing: 2px; }
+      .subtitle { fill: #30d5e8; font-family: sans-serif; font-weight: 600; font-size: 24px; }
+      .text-body { fill: #afc0d4; font-family: sans-serif; font-size: 18px; line-height: 1.6; }
+      .text-head { fill: #ffffff; font-family: sans-serif; font-weight: 700; font-size: 24px; }
+      .slot { fill: #1e293b; stroke: #475569; stroke-width: 2; stroke-dasharray: 6 6; rx: 8; }
+      .slot-text { fill: #94a3b8; font-family: sans-serif; font-weight: 700; font-size: 20px; text-anchor: middle; }
+      .slot-sub { fill: #64748b; font-family: sans-serif; font-size: 14px; text-anchor: middle; }
+    </style>
+  </defs>
+  <rect width="1920" height="1080" class="bg" />
+  
+  <!-- Header Bar -->
+  <rect x="80" y="80" width="1760" height="180" class="card" />
+  <text x="120" y="145" class="title">SHEESHH / PROP HUNT</text>
+  <text x="120" y="185" class="subtitle">Hide in plain sight. Hunt before time runs out.</text>
+  <text x="120" y="225" class="text-body">Unreal Engine 5.7 Multiplayer Action | Target: Win64 Development | Date: 2026-10-12</text>
+  
+  <!-- Role Cards -->
+  <rect x="80" y="300" width="860" height="240" class="card" />
+  <rect x="120" y="330" width="160" height="32" rx="16" fill="#ffad59" />
+  <text x="200" y="352" font-family="sans-serif" font-weight="bold" font-size="14" fill="#0b0f19" text-anchor="middle">HUNTER SQUAD</text>
+  <text x="120" y="400" class="text-head">Armed Seekers (Hitscan Line Trace)</text>
+  <text x="120" y="440" class="text-body">• Pawn: BP_ThirdPersonCharacter (StormTrooper skeleton)</text>
+  <text x="120" y="470" class="text-body">• Objective: Distinguish living props from scene clutter and eliminate them</text>
+  <text x="120" y="500" class="text-body">• Verified 4x aim response from 0.2 to 0.8 sensitivity settings</text>
+
+  <rect x="980" y="300" width="860" height="240" class="card" />
+  <rect x="1020" y="330" width="160" height="32" rx="16" fill="#30d5e8" />
+  <text x="1100" y="352" font-family="sans-serif" font-weight="bold" font-size="14" fill="#0b0f19" text-anchor="middle">PROP TEAM</text>
+  <text x="1020" y="400" class="text-head">Environmental Mimics (55 Catalog Meshes)</text>
+  <text x="1020" y="440" class="text-body">• Pawn: BP_propChar | Disguise Actor: BP_SPawnedProp</text>
+  <text x="1020" y="470" class="text-body">• Abilities: IA_ChangeProp, IA_RotationLock (freeze orientation), IA_Taunt</text>
+  <text x="1020" y="500" class="text-body">• Objective: Survive until the round clock reaches 00:00</text>
+
+  <!-- Hero Image Placeholder Slot -->
+  <rect x="80" y="580" width="1760" height="420" class="slot" />
+  <circle cx="960" cy="740" r="40" fill="#334155" />
+  <text x="960" y="748" font-family="sans-serif" font-size="32" fill="#94a3b8" text-anchor="middle">📷</text>
+  <text x="960" y="820" class="slot-text">IMG-00-HERO : GAMEPLAY HERO PERSPECTIVE</text>
+  <text x="960" y="855" class="slot-sub">Desired: Cinematic high-angle perspective of Map1 Egyptian courtyard with disguised prop and aiming hunter (1600x900)</text>
+  <text x="960" y="880" class="slot-sub">Instructions: Paste real gameplay screenshot into this rectangle layer in Figma.</text>
+</svg>
